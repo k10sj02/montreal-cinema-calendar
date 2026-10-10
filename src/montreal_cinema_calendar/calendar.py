@@ -34,7 +34,8 @@ def reconcile(current: list[Screening], previous: dict[str, Screening], successf
         if uid in output or old.start.date() < today:
             continue
         covered = old.source not in coverage_ends or old.start.date() <= coverage_ends[old.source]
-        if old.source in successful_sources and covered:
+        legacy_cinematheque = old.source == "cinematheque-quebecoise" and old.source_id.startswith("cinematheque|")
+        if old.source in successful_sources and (covered or legacy_cinematheque):
             # Missing from a successfully refreshed source means removed/cancelled.
             output[uid] = replace(old, status="CANCELLED", description=old.description + "\nRemoved from the official schedule.")
         else:
