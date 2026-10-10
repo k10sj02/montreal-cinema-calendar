@@ -6162,6 +6162,46 @@
       }
     },
     {
+      "uid": "f3525b8110216abe567de54324306ffa@montreal-cinema-calendar",
+      "fingerprint": "c3b5ed6e7bda8f936391fc145879517ebe8b4bc4d3e790979c12b78e39039f8e",
+      "event": {
+        "source": "cinema-politica-concordia",
+        "source_id": "58252",
+        "title": "EDWARD SAID: BETWEEN WORLDS – Montreal Premiere with special guests",
+        "start": "2026-10-26T19:00:00-04:00",
+        "venue": "Cinema Politica Concordia",
+        "address": "Concordia University, Room H-110, 1455 boulevard De Maisonneuve Ouest, Montréal, QC H3G 1M8",
+        "url": "https://www.cinemapolitica.org/screening/edward-said-between-worlds-montreal-premiere-with-special-guests/",
+        "description": "Cinema Politica Concordia screening. Admission: by donation.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "H-110",
+        "admission": "BY DONATION",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "4271bd9390beccee383e9a32b3b9983d@montreal-cinema-calendar",
+      "fingerprint": "f2c9bafbae8da5cc7cdf1b765695c97d3cb2f93cc08da5927335cd967654f12f",
+      "event": {
+        "source": "cinema-politica-concordia",
+        "source_id": "58151",
+        "title": "STEAL THIS STORY, PLEASE! – with guests",
+        "start": "2026-10-19T19:00:00-04:00",
+        "venue": "Cinema Politica Concordia",
+        "address": "Concordia University, Room H-110, 1455 boulevard De Maisonneuve Ouest, Montréal, QC H3G 1M8",
+        "url": "https://www.cinemapolitica.org/screening/steal-this-story-please-montreal-with-guests/",
+        "description": "Cinema Politica Concordia screening. Admission: by donation.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "H-110",
+        "admission": "BY DONATION",
+        "status": "CONFIRMED"
+      }
+    },
+    {
       "uid": "e850b7e9ef647994dded9e0fa1ac15d1@montreal-cinema-calendar",
       "fingerprint": "f6c684793f30165f3046449ad09eed144d2acb559f67c9c687f71b7b9edbd706",
       "event": {
@@ -6638,46 +6678,6 @@
         "format": "",
         "room": "",
         "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "f3525b8110216abe567de54324306ffa@montreal-cinema-calendar",
-      "fingerprint": "c3b5ed6e7bda8f936391fc145879517ebe8b4bc4d3e790979c12b78e39039f8e",
-      "event": {
-        "source": "cinema-politica-concordia",
-        "source_id": "58252",
-        "title": "EDWARD SAID: BETWEEN WORLDS – Montreal Premiere with special guests",
-        "start": "2026-10-26T19:00:00-04:00",
-        "venue": "Cinema Politica Concordia",
-        "address": "Concordia University, Room H-110, 1455 boulevard De Maisonneuve Ouest, Montréal, QC H3G 1M8",
-        "url": "https://www.cinemapolitica.org/screening/edward-said-between-worlds-montreal-premiere-with-special-guests/",
-        "description": "Cinema Politica Concordia screening. Admission: by donation.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "H-110",
-        "admission": "BY DONATION",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "4271bd9390beccee383e9a32b3b9983d@montreal-cinema-calendar",
-      "fingerprint": "f2c9bafbae8da5cc7cdf1b765695c97d3cb2f93cc08da5927335cd967654f12f",
-      "event": {
-        "source": "cinema-politica-concordia",
-        "source_id": "58151",
-        "title": "STEAL THIS STORY, PLEASE! – with guests",
-        "start": "2026-10-19T19:00:00-04:00",
-        "venue": "Cinema Politica Concordia",
-        "address": "Concordia University, Room H-110, 1455 boulevard De Maisonneuve Ouest, Montréal, QC H3G 1M8",
-        "url": "https://www.cinemapolitica.org/screening/steal-this-story-please-montreal-with-guests/",
-        "description": "Cinema Politica Concordia screening. Admission: by donation.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "H-110",
-        "admission": "BY DONATION",
         "status": "CONFIRMED"
       }
     }
