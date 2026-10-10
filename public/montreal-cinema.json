@@ -1,11 +1,10 @@
 {
-  "generated": "2026-10-10T13:21:17.256924-04:00",
-  "count": 334,
+  "generated": "2026-10-10T16:28:23.366781-04:00",
+  "count": 340,
   "sources_ok": [
     "cinema-politica-concordia",
-    "cinemacinema"
+    "cinemacinema",
+    "cinematheque-quebecoise"
   ],
-  "errors": {
-    "cinematheque-quebecoise": "Unable to fetch https://www.cinematheque.qc.ca/fr/programme/: Client error '403 Forbidden' for url 'https://www.cinematheque.qc.ca/fr/programme/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-  }
+  "errors": {}
 }

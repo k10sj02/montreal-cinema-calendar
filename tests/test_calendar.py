@@ -9,6 +9,7 @@ from montreal_cinema_calendar.ics import render
 from montreal_cinema_calendar.models import Screening, TZID
 from montreal_cinema_calendar.sources.cinemacinema import CinemaCinemaSource
 from montreal_cinema_calendar.sources.cinema_politica import CinemaPoliticaSource
+from montreal_cinema_calendar.sources.cinematheque import CinemathequeSource
 
 
 class FakeFetcher:
@@ -44,6 +45,25 @@ def test_merge_and_cancellation_only_after_successful_refresh():
     assert reconcile([], {old.uid:old}, set(), date(2026,10,10))[0].status == "CONFIRMED"
     assert reconcile([], {old.uid:old}, {"venue"}, date(2026,10,10))[0].status == "CANCELLED"
     assert len(merge([old, old])) == 1
+
+
+def test_partial_source_only_cancels_dates_in_coverage():
+    visible = sample("venue", "visible")
+    later = Screening(**{**sample("venue", "later").__dict__, "start": datetime(2026,11,1,18,30,tzinfo=ZoneInfo(TZID))})
+    got = reconcile([], {visible.uid: visible, later.uid: later}, {"venue"}, date(2026,10,10), {"venue": date(2026,10,25)})
+    by_id = {item.source_id: item for item in got}
+    assert by_id["visible"].status == "CANCELLED"
+    assert by_id["later"].status == "CONFIRMED"
+
+
+def test_cinematheque_cinoche_nuxt_payload():
+    payload = '[["ShallowReactive",1],{"data":2},["ShallowReactive",3],{"theater-cinematheque-quebecoise":4},{"screenings":5},{"2026-10-14":6},[7],{"movies":8,"screening_groups":15},[9],{"id":10,"original_title":11,"slug":12,"running_time":13,"general_synopsis":14},43735,"6 portraits néoréalistes","6-portraits-neorealistes","01:16:00","<p>Synopsis</p>",[16],{"movie_id":10,"screenings":17,"type":19},[18],"14:15:00",{"name":20},"Version originale en français"]'
+    page = f'<script id="__NUXT_DATA__" type="application/json">{payload}</script>'
+    got = CinemathequeSource(FakeFetcher({"cinoche.com": page})).fetch([date(2026,10,14)])
+    assert len(got) == 1
+    assert got[0].title == "6 portraits néoréalistes"
+    assert got[0].start.hour == 14 and got[0].start.minute == 15
+    assert got[0].runtime_minutes == 76
 
 
 def test_cinemacinema_embedded_records():

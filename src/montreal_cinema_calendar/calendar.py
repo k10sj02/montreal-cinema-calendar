@@ -27,12 +27,14 @@ def load_state(path: Path) -> dict[str, Screening]:
     return {item["uid"]: Screening.from_dict(item["event"]) for item in json.loads(path.read_text())["events"]}
 
 
-def reconcile(current: list[Screening], previous: dict[str, Screening], successful_sources: set[str], today: date) -> list[Screening]:
+def reconcile(current: list[Screening], previous: dict[str, Screening], successful_sources: set[str], today: date, coverage_ends: dict[str, date] | None = None) -> list[Screening]:
+    coverage_ends = coverage_ends or {}
     output = {event.uid: event for event in current}
     for uid, old in previous.items():
         if uid in output or old.start.date() < today:
             continue
-        if old.source in successful_sources:
+        covered = old.source not in coverage_ends or old.start.date() <= coverage_ends[old.source]
+        if old.source in successful_sources and covered:
             # Missing from a successfully refreshed source means removed/cancelled.
             output[uid] = replace(old, status="CANCELLED", description=old.description + "\nRemoved from the official schedule.")
         else:

@@ -26,12 +26,14 @@ def main() -> int:
     days = date_window(today, args.days)
     fetcher = Fetcher()
     sources = [CinemaCinemaSource(fetcher), CinemathequeSource(fetcher), CinemaPoliticaSource(fetcher)]
-    collected, errors, successful = [], {}, set()
+    collected, errors, successful, coverage_ends = [], {}, set(), {}
     for source in sources:
         try:
             events = source.fetch(days)
             collected.extend(events)
             successful.add(source.name)
+            if getattr(source, "coverage_end", None):
+                coverage_ends[source.name] = source.coverage_end
             print(f"{source.name}: {len(events)} screenings", file=sys.stderr)
         except Exception as exc:
             errors[source.name] = str(exc)
@@ -39,7 +41,7 @@ def main() -> int:
     if args.strict and errors:
         return 2
     state_path = Path(args.state)
-    events = reconcile(merge(collected), load_state(state_path), successful, today)
+    events = reconcile(merge(collected), load_state(state_path), successful, today, coverage_ends)
     if not events:
         print("ERROR: no current or retained events; refusing to publish an empty feed", file=sys.stderr)
         return 3
