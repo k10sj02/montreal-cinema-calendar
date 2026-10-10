@@ -72,6 +72,22 @@ def test_cinematheque_cinoche_nuxt_payload():
     assert got[0].runtime_minutes == 76
 
 
+def test_cinematheque_official_programme_pages():
+    first = """La zone d'essai
+
+[lundi 19 octobre 2026 à 21:00](https://omniwebticketing.com/cinematheque/?schdate=2026-10-19&perfix=14409)
+
+[2](https://www.cinematheque.qc.ca/fr/programme/?page=2)"""
+    second = """Flow
+
+[mardi 20 octobre 2026 à 17:00](https://omniwebticketing.com/cinematheque/?schdate=2026-10-20&perfix=14391)"""
+    source = CinemathequeSource(FakeFetcher({"?page=2": second, "r.jina.ai": first}))
+    got = source._fetch_official([date(2026,10,19), date(2026,10,20)])
+    assert [(event.title, event.start.hour) for event in got] == [("La zone d'essai", 21), ("Flow", 17)]
+    assert got[0].source_id == "official:14409:20261019T2100"
+    assert source.coverage_end == date(2026,10,20)
+
+
 def test_cinemacinema_embedded_records():
     # Field shape captured from the official Svelte hydration payload.
     page = '''film_id:2190,cinema_id:1,titre:"NITASSINAN",genre1:"Documentaire",duree:78,representations:[{cinema_id:1,representation_id:52620,film_id:2190,titre:"NITASSINAN",representation_date:"2026-10-10T00:00:00.000Z",version:"VOSTF",heure_debut:"14 h 30",format:"2D",salle:4,salle_desc:""}]'''

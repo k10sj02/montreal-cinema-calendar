@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import date, datetime
 import json
 import re
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qs, urlparse
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from ..models import Screening, TZID
 
 OFFICIAL_URL = "https://www.cinematheque.qc.ca/fr/programme/"
+OFFICIAL_TEXT_URL = f"https://r.jina.ai/{OFFICIAL_URL}"
 CINOCHE_URL = "https://www.cinoche.com/cinemas/cinematheque-quebecoise"
 ADDRESS = "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1"
 MONTHS = {"janvier":1,"février":2,"mars":3,"avril":4,"mai":5,"juin":6,"juillet":7,"août":8,"septembre":9,"octobre":10,"novembre":11,"décembre":12}
@@ -65,21 +66,30 @@ class CinemathequeSource:
         self.provider = ""
 
     def fetch(self, days: list[date]) -> list[Screening]:
-        errors = []
+        errors: list[str] = []
+        cinoche: list[Screening] = []
+        official: list[Screening] = []
         try:
-            events = self._fetch_cinoche(days)
-            self.provider = "Cinoche"
-            return events
+            cinoche = self._fetch_cinoche(days)
         except Exception as exc:
             errors.append(f"Cinoche: {exc}")
         try:
-            events = self._fetch_official(days)
-            self.provider = "Cinémathèque québécoise"
-            self.coverage_end = max(days)
-            return events
+            official = self._fetch_official(days)
         except Exception as exc:
             errors.append(f"Official programme: {exc}")
-        raise RuntimeError("; ".join(errors))
+        if not cinoche and not official:
+            raise RuntimeError("; ".join(errors))
+
+        # Cinoche adds runtime, synopsis, and language metadata. Keep those
+        # records when both sources describe the same screening, then add the
+        # longer-range official schedule around them.
+        seen = {(event.title.casefold(), event.start) for event in cinoche}
+        combined = cinoche + [
+            event for event in official
+            if (event.title.casefold(), event.start) not in seen
+        ]
+        self.provider = "Cinémathèque québécoise + Cinoche" if cinoche and official else ("Cinoche" if cinoche else "Cinémathèque québécoise")
+        return combined
 
     def _fetch_cinoche(self, days: list[date]) -> list[Screening]:
         soup = BeautifulSoup(self.fetcher.get(CINOCHE_URL), "html.parser")
@@ -132,32 +142,41 @@ class CinemathequeSource:
         return list(events.values())
 
     def _fetch_official(self, days: list[date]) -> list[Screening]:
-        soup = BeautifulSoup(self.fetcher.get(OFFICIAL_URL), "html.parser")
         allowed = set(days)
         events: dict[str, Screening] = {}
-        for link in soup.select("a[href]"):
-            title = " ".join(link.get_text(" ", strip=True).split())
-            if not title or title.lower() in {"billets", "suivant", "précédent"}:
-                continue
-            container = link.find_parent(["article", "li", "div"])
-            if not container:
-                continue
-            text = " ".join(container.get_text(" ", strip=True).split())
-            pattern = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)\s+(\d{1,2})\s+(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\s+(\d{4})\s*(?:à|a)\s*(\d{1,2}):(\d{2})"
-            for match in re.finditer(pattern, text, re.I):
-                day = date(int(match[3]), MONTHS[match[2].lower()], int(match[1]))
-                if day not in allowed:
+        first_page = self.fetcher.get(OFFICIAL_TEXT_URL)
+        page_numbers = [int(value) for value in re.findall(r"programme/\?page=(\d+)", first_page)]
+        pages = [first_page]
+        for page_number in range(2, max(page_numbers, default=1) + 1):
+            pages.append(self.fetcher.get(f"{OFFICIAL_TEXT_URL}?page={page_number}"))
+
+        weekday = r"(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)"
+        date_text = rf"{weekday}\s+(\d{{1,2}})\s+({'|'.join(MONTHS)})\s+(\d{{4}})\s+(?:à|a)\s+(\d{{1,2}}):(\d{{2}})"
+        link_pattern = re.compile(rf"\[({date_text})\]\((https://omniwebticketing\.com/cinematheque/\?[^)]+)\)", re.I)
+        block_pattern = re.compile(rf"(?m)^([^\n\[\]#]+)\n\n((?:\[{weekday}[^\n]+\]\(https://omniwebticketing\.com/cinematheque/\?[^)]+\))+)$", re.I)
+        covered_dates: list[date] = []
+        for page in pages:
+            for block in block_pattern.finditer(page):
+                title = " ".join(block[1].split())
+                if re.match(r"^(?:Le|Du) \d", title, re.I):
                     continue
-                start = datetime(day.year, day.month, day.day, int(match[4]), int(match[5]), tzinfo=ZoneInfo(TZID))
-                event_url = urljoin(OFFICIAL_URL, link.get("href", ""))
-                slug = urlparse(event_url).path.rstrip("/").split("/")[-1]
-                source_id = f"official:{slug}:{start:%Y%m%dT%H%M}"
-                events[source_id] = Screening(
-                    source=self.name, source_id=source_id, title=title, start=start,
-                    venue="Cinémathèque québécoise", address=ADDRESS, url=event_url,
-                    description="Cinémathèque québécoise screening.",
-                    admission="FREE" if re.search(r"entrée libre|gratuit", text, re.I) else "",
-                )
+                for match in link_pattern.finditer(block[2]):
+                    day = date(int(match[4]), MONTHS[match[3].lower()], int(match[2]))
+                    covered_dates.append(day)
+                    if day not in allowed:
+                        continue
+                    start = datetime(day.year, day.month, day.day, int(match[5]), int(match[6]), tzinfo=ZoneInfo(TZID))
+                    event_url = match[7]
+                    ticket_id = parse_qs(urlparse(event_url).query).get("perfix", [""])[0]
+                    source_id = f"official:{ticket_id or title.casefold()}:{start:%Y%m%dT%H%M}"
+                    events[source_id] = Screening(
+                        source=self.name, source_id=source_id, title=title, start=start,
+                        venue="Cinémathèque québécoise", address=ADDRESS, url=event_url,
+                        description="Official Cinémathèque québécoise programme.",
+                    )
         if not events:
             raise RuntimeError("page returned no recognizable screenings")
+        dates_in_window = [value for value in covered_dates if value in allowed]
+        if dates_in_window:
+            self.coverage_end = max(dates_in_window)
         return list(events.values())
