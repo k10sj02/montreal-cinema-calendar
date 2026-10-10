@@ -9,7 +9,9 @@ from montreal_cinema_calendar.ics import render
 from montreal_cinema_calendar.models import Screening, TZID
 from montreal_cinema_calendar.sources.cinemacinema import CinemaCinemaSource
 from montreal_cinema_calendar.sources.cinema_politica import CinemaPoliticaSource
+from montreal_cinema_calendar.sources.cinema_public import CinemaPublicSource
 from montreal_cinema_calendar.sources.cinematheque import CinemathequeSource
+from montreal_cinema_calendar.sources.microcinema import MicrocinemaSource
 
 
 class FakeFetcher:
@@ -102,3 +104,23 @@ def test_cinema_politica_individual_detail():
     assert got[0].start.hour == 19
     assert got[0].admission == "BY DONATION"
     assert got[0].source_id == "58203"
+
+
+def test_cinema_public_structured_schedule():
+    payload = {"@context":"https://schema.org","@graph":{
+        "0":{"@type":"MovieTheater","@id":"#casa","name":"Cinéma Public — Casa d’Italia","address":{"streetAddress":"505 rue Jean-Talon E","addressLocality":"Montréal","postalCode":"H2R 1T6"}},
+        "@type":"ItemList","itemListElement":[{"item":{"@type":["Event","ScreeningEvent"],"@id":"https://cinemapublic.ca/seances/mirror-2026-10-18-1300#event","url":"https://cinemapublic.ca/seances/mirror-2026-10-18-1300","startDate":"2026-10-18T13:00:00-04:00","location":{"@id":"#casa"},"workPresented":{"name":"Mirror","inLanguage":"fr","director":{"name":"Andreï Tarkovski"}},"offers":{"url":"https://tickets.test/94689"}}}]}}
+    page = f'<script type="application/ld+json">{__import__("json").dumps(payload)}</script>'
+    got = CinemaPublicSource(FakeFetcher({"horaire": page})).fetch([date(2026,10,18)])
+    assert [(e.title, e.start.hour, e.source_id) for e in got] == [("Mirror", 13, "mirror-2026-10-18-1300")]
+    assert got[0].address == "505 rue Jean-Talon E, Montréal, H2R 1T6"
+
+
+def test_microcinema_keeps_named_sources_and_avoids_core_duplicates():
+    payload = {"nextOffset":None,"items":[
+        {"id":"modern-1","title":"Small film","category":"film","status":"scheduled","startsAt":"2026-10-11T23:00:00Z","venue":{"slug":"cinema-moderne","name":"Cinéma Moderne"},"ticketUrl":"https://tickets.test/1","sources":["Cinéma Moderne horaire"],"tags":[]},
+        {"id":"festival-1","title":"Opening film","category":"film","status":"scheduled","startsAt":"2026-10-12T00:00:00Z","venue":{"slug":"other","name":"Other"},"url":"https://events.test/1","sources":["RIDM"],"tags":[{"kind":"price","label":"Free"}]},
+        {"id":"duplicate-1","title":"Core film","category":"film","status":"scheduled","startsAt":"2026-10-12T01:00:00Z","venue":{"slug":"cinema-beaubien","name":"Cinéma Beaubien"},"url":"https://events.test/2","sources":[],"tags":[]}]}
+    got = MicrocinemaSource(FakeFetcher({"api/events": __import__("json").dumps(payload)})).fetch([date(2026,10,11)])
+    assert [e.source_id for e in got] == ["modern-1", "festival-1"]
+    assert got[1].admission == "FREE"

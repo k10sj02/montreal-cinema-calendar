@@ -1,7 +1,7 @@
 [project]
 name = "montreal-cinema-calendar"
 version = "1.0.0"
-description = "Automated iCalendar feed for five independent Montreal cinemas"
+description = "Automated iCalendar feed for independent Montreal cinemas, microcinemas and film festivals"
 requires-python = ">=3.11"
 dependencies = [
   "beautifulsoup4>=4.12,<5",

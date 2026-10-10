@@ -11,7 +11,7 @@ from .calendar import date_window, load_state, merge, reconcile, save_state
 from .http import Fetcher
 from .ics import render
 from .models import TZID
-from .sources import CinemaCinemaSource, CinemathequeSource, CinemaPoliticaSource
+from .sources import CinemaCinemaSource, CinemaPublicSource, CinemathequeSource, CinemaPoliticaSource, MicrocinemaSource
 
 
 def main() -> int:
@@ -25,7 +25,13 @@ def main() -> int:
     today = args.today or datetime.now(ZoneInfo(TZID)).date()
     days = date_window(today, args.days)
     fetcher = Fetcher()
-    sources = [CinemaCinemaSource(fetcher), CinemathequeSource(fetcher), CinemaPoliticaSource(fetcher)]
+    sources = [
+        CinemaCinemaSource(fetcher),
+        CinemathequeSource(fetcher),
+        CinemaPoliticaSource(fetcher),
+        CinemaPublicSource(fetcher),
+        MicrocinemaSource(fetcher),
+    ]
     collected, errors, successful, coverage_ends = [], {}, set(), {}
     for source in sources:
         try:

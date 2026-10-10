@@ -4,7 +4,7 @@ import time
 import httpx
 
 USER_AGENT = (
-    "MontrealCinemaCalendar/1.0 (+https://github.com/USER/montreal-cinema-calendar; "
+    "MontrealCinemaCalendar/1.0 (+https://github.com/k10sj02/montreal-cinema-calendar; "
     "public cultural schedule index)"
 )
 
