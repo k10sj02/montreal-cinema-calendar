@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#231f20">
+  <meta name="description" content="One automatically updated calendar for repertory, independent, documentary, and political cinema screenings across Montréal.">
+  <title>Montréal Cinema Calendar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav wrap">
+    <a class="brand" href="#top" aria-label="Montréal Cinema home">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span>Montréal Cinema</span>
+    </a>
+    <a class="nav-link" href="#how-to-add">How to subscribe</a>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">A city of films, in one calendar</p>
+        <h1>Never miss a great film in Montréal.</h1>
+        <p class="lede">Independent, repertory, documentary, and political cinema screenings—collected from five Montréal institutions and updated automatically.</p>
+        <div class="actions">
+          <a class="button primary" href="webcal://k10sj02.github.io/montreal-cinema-calendar/montreal-cinema.ics">Subscribe to calendar <span aria-hidden="true">↗</span></a>
+          <button class="button secondary" id="copy-link" type="button">Copy calendar link</button>
+        </div>
+        <p class="status" aria-live="polite">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="calendar-status">Loading the latest schedule…</span>
+        </p>
+      </div>
+      <div class="poster" aria-hidden="true">
+        <div class="poster-top">
+          <span>À l'affiche</span>
+          <span>Montréal</span>
+        </div>
+        <div class="reel"><span></span><span></span><span></span><span></span><span></span></div>
+        <p class="poster-title">See you<br>at the<br><em>cinema.</em></p>
+        <div class="poster-bottom">Five venues · One calendar</div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Included cinemas">
+      <div class="marquee-track">
+        <span>Cinéma du Parc</span><i>✦</i><span>Cinéma Beaubien</span><i>✦</i><span>Cinéma du Musée</span><i>✦</i><span>Cinémathèque québécoise</span><i>✦</i><span>Cinema Politica Concordia</span>
+      </div>
+    </section>
+
+    <section class="details wrap">
+      <div class="section-heading">
+        <p class="eyebrow">What’s included</p>
+        <h2>Five screens.<br>Hundreds of possibilities.</h2>
+      </div>
+      <div class="venue-list">
+        <article><span>01</span><div><h3>Cinéma du Parc</h3><p>Independent, international, and repertory films in the Plateau.</p></div></article>
+        <article><span>02</span><div><h3>Cinéma Beaubien</h3><p>Québécois, French-language, and international cinema.</p></div></article>
+        <article><span>03</span><div><h3>Cinéma du Musée</h3><p>Curated cinema beside the Montréal Museum of Fine Arts.</p></div></article>
+        <article><span>04</span><div><h3>Cinémathèque québécoise</h3><p>Retrospectives, restorations, and essential film history.</p></div></article>
+        <article><span>05</span><div><h3>Cinema Politica Concordia</h3><p>Political documentaries, discussions, and community screenings.</p></div></article>
+      </div>
+    </section>
+
+    <section class="how" id="how-to-add">
+      <div class="wrap">
+        <div class="section-heading compact">
+          <p class="eyebrow">Add it once</p>
+          <h2>Then let the calendar do the work.</h2>
+          <p>Subscribe instead of downloading. New showtimes and schedule changes will appear automatically.</p>
+        </div>
+        <div class="steps">
+          <article><span class="step-number">1</span><h3>Copy the link</h3><p>Use the button below to copy the calendar subscription address.</p></article>
+          <article><span class="step-number">2</span><h3>Open your calendar</h3><p>Look for “Add calendar by URL” or “New calendar subscription.”</p></article>
+          <article><span class="step-number">3</span><h3>Paste and subscribe</h3><p>Choose an automatic refresh interval and you’re all set.</p></article>
+        </div>
+        <div class="subscribe-card">
+          <div><small>Calendar subscription URL</small><code id="calendar-url">https://k10sj02.github.io/montreal-cinema-calendar/montreal-cinema.ics</code></div>
+          <button class="button primary" id="copy-link-bottom" type="button">Copy link</button>
+        </div>
+        <div class="platforms">
+          <details><summary>Apple Calendar</summary><p>On Mac, choose <strong>File → New Calendar Subscription</strong>. On iPhone or iPad, open <strong>Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar</strong>.</p></details>
+          <details><summary>Google Calendar</summary><p>On a computer, open Google Calendar. Beside <strong>Other calendars</strong>, choose <strong>+ → From URL</strong>, then paste the subscription link.</p></details>
+          <details><summary>Outlook</summary><p>Open the calendar, choose <strong>Add calendar → Subscribe from web</strong>, paste the subscription link, and give the calendar a name.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>Made for Montréal moviegoers.</p>
+    <p><a href="https://github.com/k10sj02/montreal-cinema-calendar">View the open-source project</a></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

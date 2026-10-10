@@ -1,5 +1,9 @@
 # Montréal Cinema Calendar
 
+**Website:** https://k10sj02.github.io/montreal-cinema-calendar/
+
+**Calendar subscription:** https://k10sj02.github.io/montreal-cinema-calendar/montreal-cinema.ics
+
 An automated, subscribable calendar of **individual screenings** at:
 
 - Cinéma Beaubien
