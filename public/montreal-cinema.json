@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-23T17:25:10.009581-04:00",
-  "count": 540,
+  "generated": "2026-10-24T00:36:59.877911-04:00",
+  "count": 485,
   "sources_ok": [
     "cinema-politica-concordia",
     "cinema-public",
@@ -8,6 +8,6 @@
     "cinematheque-quebecoise"
   ],
   "errors": {
-    "microcinema-film-clubs": "Unable to fetch https://montreal.hasthings.com/api/events?from=2026-10-23&to=2026-12-06&category=film&limit=500: Server error '500 Internal Server Error' for url 'https://montreal.hasthings.com/api/events?from=2026-10-23&to=2026-12-06&category=film&limit=500'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
+    "microcinema-film-clubs": "Unable to fetch https://montreal.hasthings.com/api/events?from=2026-10-24&to=2026-12-07&category=film&limit=500: Server error '500 Internal Server Error' for url 'https://montreal.hasthings.com/api/events?from=2026-10-24&to=2026-12-07&category=film&limit=500'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500"
   }
 }
