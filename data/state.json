@@ -1663,7 +1663,7 @@
     },
     {
       "uid": "3f296a1c746ea3e1854562031b65eaaa@montreal-cinema-calendar",
-      "fingerprint": "cbbef8673b5e2402d8de66969f033ec092b21c6e7e412fc7a6806f29f80ac3df",
+      "fingerprint": "ddf59529fce32c0cd41e114213d0c677a638f836104724b5d58b8847fe1f8ff0",
       "event": {
         "source": "cinemacinema",
         "source_id": "51206",
@@ -1672,11 +1672,11 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOASTF; format: 2D; salle 2.",
+        "description": "Version: VOASTF; format: 2D; salle 1.",
         "runtime_minutes": 141,
         "language": "VOASTF",
         "format": "2D",
-        "room": "2",
+        "room": "1",
         "admission": "",
         "status": "CONFIRMED"
       }
@@ -1923,7 +1923,7 @@
     },
     {
       "uid": "cce778540e275c642d2f83d579aca754@montreal-cinema-calendar",
-      "fingerprint": "7560fd2967020d99c35713f084ec5a39e5583193012d4a5a0805c5607bea597e",
+      "fingerprint": "dfe70672cedeba18d5ec7a9e4808abb9909f288eb4000e63b9851c2bb73e06ee",
       "event": {
         "source": "cinemacinema",
         "source_id": "50285",
@@ -1932,18 +1932,18 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOA; format: 2D; salle 2.",
+        "description": "Version: VOA; format: 2D; salle 1.",
         "runtime_minutes": 92,
         "language": "VOA",
         "format": "2D",
-        "room": "2",
+        "room": "1",
         "admission": "",
         "status": "CONFIRMED"
       }
     },
     {
       "uid": "96ba9284aa803331363c95053aae6965@montreal-cinema-calendar",
-      "fingerprint": "9fe677d526856b58c3d1d0a8f4bae8ba6ed10fe3a102d1465ac77fe41c2b2b18",
+      "fingerprint": "dfbc6f2b19cb8ad010c6b8615e7348aafc0da68e7af7162a4d57e128cf9e079e",
       "event": {
         "source": "cinemacinema",
         "source_id": "53452",
@@ -1952,18 +1952,18 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOSTF; format: 2D; salle 1.",
+        "description": "Version: VOSTF; format: 2D; salle 2.",
         "runtime_minutes": 160,
         "language": "VOSTF",
         "format": "2D",
-        "room": "1",
+        "room": "2",
         "admission": "",
         "status": "CONFIRMED"
       }
     },
     {
       "uid": "5b508f5d3bf979d53893d0fd9c9a0611@montreal-cinema-calendar",
-      "fingerprint": "8c74f6771647d7733ea733a6d2b8f81b6629ea174c710b1df46167a116810e50",
+      "fingerprint": "156bc0b967046be9407941b2a6ba6c551c7425d71f4c702968544ce68039a549",
       "event": {
         "source": "cinemacinema",
         "source_id": "53450",
@@ -1972,18 +1972,18 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOSTA; format: 2D; salle 1.",
+        "description": "Version: VOSTA; format: 2D; salle 2.",
         "runtime_minutes": 160,
         "language": "VOSTA",
         "format": "2D",
-        "room": "1",
+        "room": "2",
         "admission": "",
         "status": "CONFIRMED"
       }
     },
     {
       "uid": "a0fe3f5c0850e4a16ab3ec03549fa722@montreal-cinema-calendar",
-      "fingerprint": "6266ab43fcc409efaf2836b7f1ff8db975cad691dab9ae13568e2996c9de52b1",
+      "fingerprint": "727c21d0e0cea7c785de39ff337c1fcc73ef36a1a84241c55f61c9f384adccbe",
       "event": {
         "source": "cinemacinema",
         "source_id": "53454",
@@ -1992,11 +1992,11 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOSTA; format: 2D; salle 1.",
+        "description": "Version: VOSTA; format: 2D; salle 2.",
         "runtime_minutes": 160,
         "language": "VOSTA",
         "format": "2D",
-        "room": "1",
+        "room": "2",
         "admission": "",
         "status": "CONFIRMED"
       }
@@ -2183,7 +2183,7 @@
     },
     {
       "uid": "618e507dd72c1571bcb0211a9fb8a8c1@montreal-cinema-calendar",
-      "fingerprint": "506e958c021b6e3b0663574c433d6d6e74676a8b4f0ed227c7954af555b8d6fc",
+      "fingerprint": "c433113fc3c11e4e9f4434201c33e8d5acf5cdf435124f302a3f84b937a0f51f",
       "event": {
         "source": "cinemacinema",
         "source_id": "53457",
@@ -2192,18 +2192,18 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOSTA; format: 2D; salle 2.",
+        "description": "Version: VOSTA; format: 2D; salle 1.",
         "runtime_minutes": 146,
         "language": "VOSTA",
         "format": "2D",
-        "room": "2",
+        "room": "1",
         "admission": "",
         "status": "CONFIRMED"
       }
     },
     {
       "uid": "e745a871edf131021700ad8231d7923e@montreal-cinema-calendar",
-      "fingerprint": "f4c23ac9f846859d608f72cb2d8267b390648b5353599b60085cad4ee6f2a8d6",
+      "fingerprint": "a3e7c175632f1c85fd8bcf8e9106daf56118e8e28538ad8b4c1d1b72ac8326f3",
       "event": {
         "source": "cinemacinema",
         "source_id": "53451",
@@ -2212,18 +2212,18 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOASTF; format: 2D; salle 2.",
+        "description": "Version: VOASTF; format: 2D; salle 1.",
         "runtime_minutes": 175,
         "language": "VOASTF",
         "format": "2D",
-        "room": "2",
+        "room": "1",
         "admission": "",
         "status": "CONFIRMED"
       }
     },
     {
       "uid": "d49eeba9d605a00d80c35f9a8f2e3e6d@montreal-cinema-calendar",
-      "fingerprint": "5547354b72f67e8c9a5bd7b353b61af2424fa6bfd222ad15467576537f2fd7e5",
+      "fingerprint": "b24cf7bf44199338ee3beee29deb31d8cb7ebf7888d3942148c4ae89f3f75f0c",
       "event": {
         "source": "cinemacinema",
         "source_id": "53456",
@@ -2232,11 +2232,11 @@
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-01",
-        "description": "Version: VOASTF; format: 2D; salle 1.",
+        "description": "Version: VOASTF; format: 2D; salle 2.",
         "runtime_minutes": 175,
         "language": "VOASTF",
         "format": "2D",
-        "room": "1",
+        "room": "2",
         "admission": "",
         "status": "CONFIRMED"
       }
@@ -5282,6 +5282,26 @@
       }
     },
     {
+      "uid": "8d0ec748e2c5baa662c550d87f11438e@montreal-cinema-calendar",
+      "fingerprint": "cca3d1e29192160d46f67211c9c480fb39ea2a554690b4274c16f41c449e8083",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53694",
+        "title": "KEN RUSSELL’S THE DEVILS",
+        "start": "2026-11-06T21:30:00-05:00",
+        "venue": "Cinéma du Musée",
+        "address": "1379-A rue Sherbrooke Ouest, Montréal, QC H3G 1K3",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-06",
+        "description": "Version: VOASTF; format: 2D; salle 1.",
+        "runtime_minutes": 114,
+        "language": "VOASTF",
+        "format": "2D",
+        "room": "1",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
       "uid": "8e0c96449ffa8b24ed11fc3676f6b2bc@montreal-cinema-calendar",
       "fingerprint": "3f87258a48fa88d459f2d84ed4bd2a6fa08f5efed47cc572964f574322e64262",
       "event": {
@@ -6922,166 +6942,6 @@
       }
     },
     {
-      "uid": "fcc2cc33fdb40d4f19a55cc8d0f74eac@montreal-cinema-calendar",
-      "fingerprint": "8fedc6dcc3e43eef1e358b77366879b355f0ebab1a44390a4e3d14bdc8d8ad78",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14456:20261106T1830",
-        "title": "Là où tout se rassemble",
-        "start": "2026-11-06T18:30:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-06&perfix=14456",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "38be9ef28a7364c516f66d7a1e01b075@montreal-cinema-calendar",
-      "fingerprint": "183e3585ccc751404cb95176fffcdcb8be59972eec5495722fba2b5bfa9431c9",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14457:20261107T1700",
-        "title": "Là où tout se rassemble",
-        "start": "2026-11-07T17:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-07&perfix=14457",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "a631ab6d13e6e6fded9e634593398ef8@montreal-cinema-calendar",
-      "fingerprint": "3d74a57c4507ec3e7ac7af265295c0b93d8c5b56f97dee9264ce3a3cb5873bb4",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14458:20261108T1400",
-        "title": "Là où tout se rassemble",
-        "start": "2026-11-08T14:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-08&perfix=14458",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "e986737ff4da3c60fdafc9b1844c9639@montreal-cinema-calendar",
-      "fingerprint": "9cb51d8a598024897498e6e80206a46036155643ee438e918a07401fbc082b3b",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14479:20261116T1830",
-        "title": "Vieille Corneille",
-        "start": "2026-11-16T18:30:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-16&perfix=14479",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "af8ffe8a6dc10eea9ffcf355841d2653@montreal-cinema-calendar",
-      "fingerprint": "0ed9228d387c28be974561e31450fafe6a38d613f7d6b67d7d146c76f55d9c37",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14480:20261117T1830",
-        "title": "Vieille Corneille",
-        "start": "2026-11-17T18:30:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-17&perfix=14480",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "d8e5cc2cf94e9830f9a562474a6bb30c@montreal-cinema-calendar",
-      "fingerprint": "aeb21752e8ceaa7b19e52089ca97e3dc3d9a99c6465b662566e5e1b8e08a837b",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14481:20261118T1500",
-        "title": "Vieille Corneille",
-        "start": "2026-11-18T15:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14481",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "a4a6a90faa342b8ca8967b5ac7fe7cbc@montreal-cinema-calendar",
-      "fingerprint": "5bd0deb984e3ba79706dcf1ae61943c62b90b15e0c38c43246f285c57d7fff8d",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14482:20261119T1500",
-        "title": "Vieille Corneille",
-        "start": "2026-11-19T15:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-19&perfix=14482",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "5362408012fa718ce366225a4f4b9322@montreal-cinema-calendar",
-      "fingerprint": "863baee1d8fd7dade17ad72c4cb91649ad92868f674b96a4e3637f026fd41e4a",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14429:20261116T1730",
-        "title": "Tasio",
-        "start": "2026-11-16T17:30:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-16&perfix=14429",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
       "uid": "68ad251c901cc7a9b020e91513379dee@montreal-cinema-calendar",
       "fingerprint": "ee7abc1d1e8f0200d03579f4b876303a2e75b9909230549627e37ffbbeaeeccd",
       "event": {
@@ -7332,6 +7192,26 @@
         "venue": "Cinema Politica Concordia",
         "address": "Concordia University, Room H-110, 1455 boulevard De Maisonneuve Ouest, Montréal, QC H3G 1M8",
         "url": "https://www.cinemapolitica.org/screening/against-the-tide-exclusion-montreal-premiere-and-special-screening-with-director/",
+        "description": "Cinema Politica Concordia screening. Admission: by donation.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "H-110",
+        "admission": "BY DONATION",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "26fc779dfdb001cecb8c7bd5d0a4e821@montreal-cinema-calendar",
+      "fingerprint": "8f82f470a2c6d2131d180f0f9af7a6b6cddf74ed55aa767e1c9093afd1ce8776",
+      "event": {
+        "source": "cinema-politica-concordia",
+        "source_id": "58390",
+        "title": "ALL RIVERS SPILL THEIR SECRETS TO THE SEA – Montreal Premiere with guests!",
+        "start": "2026-12-07T19:00:00-05:00",
+        "venue": "Cinema Politica Concordia",
+        "address": "Concordia University, Room H-110, 1455 boulevard De Maisonneuve Ouest, Montréal, QC H3G 1M8",
+        "url": "https://www.cinemapolitica.org/screening/all-rivers-spill-their-secrets-to-the-sea-montreal-premiere-with-guests/",
         "description": "Cinema Politica Concordia screening. Admission: by donation.",
         "runtime_minutes": null,
         "language": "",
@@ -9762,8 +9642,168 @@
       }
     },
     {
+      "uid": "fcc2cc33fdb40d4f19a55cc8d0f74eac@montreal-cinema-calendar",
+      "fingerprint": "76dba4193140cb7f16308af6b05f0994caa1a4a8bc97a04cc9775b71a0e9cfa1",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14456:20261106T1830",
+        "title": "Là où tout se rassemble",
+        "start": "2026-11-06T18:30:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-06&perfix=14456",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
+      "uid": "38be9ef28a7364c516f66d7a1e01b075@montreal-cinema-calendar",
+      "fingerprint": "8be9eb09136210bc44b98127fa1ed8992ef399ce4120d1e3510ef94b03406737",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14457:20261107T1700",
+        "title": "Là où tout se rassemble",
+        "start": "2026-11-07T17:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-07&perfix=14457",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
+      "uid": "a631ab6d13e6e6fded9e634593398ef8@montreal-cinema-calendar",
+      "fingerprint": "1c31ed8346b02a2df82f05d7eeab223e7ce2941c7c258930e0ceb699da21a434",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14458:20261108T1400",
+        "title": "Là où tout se rassemble",
+        "start": "2026-11-08T14:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-08&perfix=14458",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
+      "uid": "e986737ff4da3c60fdafc9b1844c9639@montreal-cinema-calendar",
+      "fingerprint": "6a19ba7d5f608394ae9f10e2220e823bdcb9eff9433ed6d472460c76e2ecbab4",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14479:20261116T1830",
+        "title": "Vieille Corneille",
+        "start": "2026-11-16T18:30:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-16&perfix=14479",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
+      "uid": "af8ffe8a6dc10eea9ffcf355841d2653@montreal-cinema-calendar",
+      "fingerprint": "994960f8948c224295e99147e7e4d87b9f11caa19ebfdc357a9f87cb24cf2ce9",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14480:20261117T1830",
+        "title": "Vieille Corneille",
+        "start": "2026-11-17T18:30:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-17&perfix=14480",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
+      "uid": "d8e5cc2cf94e9830f9a562474a6bb30c@montreal-cinema-calendar",
+      "fingerprint": "fcd8c576b2ce910a302149660a1d391ba6c06e9952cfa6d2df8e456d855c47a1",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14481:20261118T1500",
+        "title": "Vieille Corneille",
+        "start": "2026-11-18T15:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14481",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
+      "uid": "a4a6a90faa342b8ca8967b5ac7fe7cbc@montreal-cinema-calendar",
+      "fingerprint": "fc8573c57db1ac0fa766ed202750456f6ffc5e01060888d0f8d0c15b369b5014",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14482:20261119T1500",
+        "title": "Vieille Corneille",
+        "start": "2026-11-19T15:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-19&perfix=14482",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
+      "uid": "5362408012fa718ce366225a4f4b9322@montreal-cinema-calendar",
+      "fingerprint": "f80bbd06615592105ade293eddb7da31e8e8fa9c3b0f7ede5c3359993a90717e",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14429:20261116T1730",
+        "title": "Tasio",
+        "start": "2026-11-16T17:30:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-16&perfix=14429",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CANCELLED"
+      }
+    },
+    {
       "uid": "2e823e49bdecabdf48aa8696ddbf982f@montreal-cinema-calendar",
-      "fingerprint": "b5e8db39deead20df6cbe55e33ef9227ad276c277d00ed5935397ab8da02a801",
+      "fingerprint": "fa62f953e97c75f99b541f8347581ec31f8440560b389890137cbf9cb3dd2929",
       "event": {
         "source": "cinemacinema",
         "source_id": "53524",
@@ -9772,7 +9812,7 @@
         "venue": "Cinéma Beaubien",
         "address": "2396 rue Beaubien Est, Montréal, QC H2G 1N2",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-10-30",
-        "description": "Version: VOF; format: 2D; salle 2.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Version: VOF; format: 2D; salle 2.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": 104,
         "language": "VOF",
         "format": "2D",
@@ -9783,7 +9823,7 @@
     },
     {
       "uid": "5e41bc4b64d75ad5c92af76cbdb2cf53@montreal-cinema-calendar",
-      "fingerprint": "ccdbb98028099ada41e255bfc07a000b21e7e8f498d9738e2903716e6be66963",
+      "fingerprint": "52fb41d0b5af669058c9ed49bccf846fe463fc2a33d6d9acd8f89a9db3a0b5ea",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14464:20261031T1630",
@@ -9792,7 +9832,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-10-31&perfix=14464",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9803,7 +9843,7 @@
     },
     {
       "uid": "bb1ec23f310657e9bf5ac8b167f2ee0c@montreal-cinema-calendar",
-      "fingerprint": "a2a32106c94bff43f2b404a86d9d6106c9e649927b6d1efa82a054910addfce3",
+      "fingerprint": "e2cc8e37205b029680cae331d22ef29562f231b353ba4cc70941e2f03fbc7b54",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14467:20261101T1815",
@@ -9812,7 +9852,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-01&perfix=14467",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9823,7 +9863,7 @@
     },
     {
       "uid": "376100af3f606ef184860155e83dffed@montreal-cinema-calendar",
-      "fingerprint": "ff063ee8a7c8e519f6eab45144ade9c74ddcd12632b0939bb9fa3b280d68c2db",
+      "fingerprint": "0ef66a7b49e90451a05c2447ec7a51b0a9f7f4dbe372b69e8febfe9ef109b2c6",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14468:20261102T1500",
@@ -9832,7 +9872,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-02&perfix=14468",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9843,7 +9883,7 @@
     },
     {
       "uid": "c6900601344f281c4591fbd237fb92d3@montreal-cinema-calendar",
-      "fingerprint": "5afeef0f9e4629345efa5336e17134f370aa4d997ab334281184448bfb5d9277",
+      "fingerprint": "6e8584ff0a23f0e79bbfc3ac111893059d76dc9d125ab65612ac4e23d7a871cc",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14472:20261103T1730",
@@ -9852,7 +9892,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14472",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9863,7 +9903,7 @@
     },
     {
       "uid": "4195290246ad1827afd988e2da4f4437@montreal-cinema-calendar",
-      "fingerprint": "9d88df47736feeb81710428e76950e3bc31167fcfbcf83c06eb6c1e31ebfc171",
+      "fingerprint": "c707a2b91e47b105b1d3a8890698edb8236c2aeb1bb87b46fc8797c0cc02c4f9",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14477:20261105T1815",
@@ -9872,7 +9912,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-05&perfix=14477",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9883,7 +9923,7 @@
     },
     {
       "uid": "954812ee2975a3beb2a4c1873dbbc10a@montreal-cinema-calendar",
-      "fingerprint": "8f6553d5857e1d5b3681b47ef8c6366e02d56ea5f9af8edf185531b5d092a53e",
+      "fingerprint": "e3a6c0a9f676be7a81cbb7a9862e50874c58515f12f3751296527db62113fc3c",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14461:20261030T1930",
@@ -9892,7 +9932,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-10-30&perfix=14461",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9903,7 +9943,7 @@
     },
     {
       "uid": "3beb7e712f509c6fb5e63fc19f6085c1@montreal-cinema-calendar",
-      "fingerprint": "e2e740294e4309c6c6050397c1d26a656f210892d0d646dd00ad46f75ca78347",
+      "fingerprint": "9e153773ad9ca1ad5cc83db9233c8f8db8c948afb1659f7cd58ffad594f0712c",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14462:20261031T1400",
@@ -9912,7 +9952,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-10-31&perfix=14462",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9923,7 +9963,7 @@
     },
     {
       "uid": "baae275504e7b1527bca6754515a1d0c@montreal-cinema-calendar",
-      "fingerprint": "eaf212a51adfca6bfc53d2341063ea45d2621a87249bebf263a1893bad847461",
+      "fingerprint": "b3353dfcfe2b21cdacf2d0f84fa53624f57d56e21bf67ab64e0a3d8b1435ee19",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14466:20261101T1600",
@@ -9932,7 +9972,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-01&perfix=14466",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9943,7 +9983,7 @@
     },
     {
       "uid": "24d210cfbf66deae552dc79b1ad1ede0@montreal-cinema-calendar",
-      "fingerprint": "d4be4d619da520130cc69ff294ee70cab4660c337a225e619a94aa73bf357d1d",
+      "fingerprint": "a4134271982e47bd0070f06f0d6b1e92503c319557d91708150cf3920117a10f",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14469:20261102T1700",
@@ -9952,7 +9992,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-02&perfix=14469",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9963,7 +10003,7 @@
     },
     {
       "uid": "bc59c60d7b0189b52c4f996b16d39732@montreal-cinema-calendar",
-      "fingerprint": "6413d09258769dbd58c43a19eb44878becd6a99217d921754c24a940c2e9ed06",
+      "fingerprint": "56ee802e78f54f4bf9766577691149c1ef65df8a86c9afc19564bc5dad5c81fc",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14471:20261103T1930",
@@ -9972,7 +10012,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14471",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -9983,7 +10023,7 @@
     },
     {
       "uid": "28c876e7eef84bd89b226e76271dbca4@montreal-cinema-calendar",
-      "fingerprint": "1518a9cfdc986e5c2e1d29e48b17e44b32a639581bf0d62edff19b53f8d9f73c",
+      "fingerprint": "04b5d4a46b3175709ac61e68612f7348c90bf05941890d8bbcd970e7b8a31ab1",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14475:20261104T1600",
@@ -9992,7 +10032,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14475",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10003,7 +10043,7 @@
     },
     {
       "uid": "1a839714e8b865aa6740aff1f2024e7c@montreal-cinema-calendar",
-      "fingerprint": "f00514414e81970b93d2482a22d80f7456eca9e24bcd943a7516ee6ac33f0132",
+      "fingerprint": "cd4495331a51516a414a76672f99bba93b529711f501bdeb44ba47bd8b4afcc5",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14476:20261105T2015",
@@ -10012,7 +10052,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-05&perfix=14476",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10023,7 +10063,7 @@
     },
     {
       "uid": "b9ba37ef4ac89815903a0bc678b9a20c@montreal-cinema-calendar",
-      "fingerprint": "2e7f11e52ad3d4f85869030cba4cee7097cca15ee850a13691fa859349c91d13",
+      "fingerprint": "9f28b164d89a4a16cb92f95d99f7d32631d45048b60f67cd9c5240a59a575613",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14320:20261030T1800",
@@ -10032,7 +10072,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-10-30&perfix=14320",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10043,7 +10083,7 @@
     },
     {
       "uid": "ffe2cb3b5e13490d1177e33c61488a6e@montreal-cinema-calendar",
-      "fingerprint": "f37807b1540115e14d260f312aa6dc393609e4124b3f7381af465ba129de6214",
+      "fingerprint": "cf7865a464646d85fa657781235103c282ff89ebf576d591e3d3ef679067a409",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14321:20261030T2030",
@@ -10052,7 +10092,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-10-30&perfix=14321",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10063,7 +10103,7 @@
     },
     {
       "uid": "c6d565c8c6680398e754fbb1b47ff02e@montreal-cinema-calendar",
-      "fingerprint": "027317ce810652070af065d478a7e33524121bed665c4442a8c978005bc269e5",
+      "fingerprint": "6d83c4310080214cecbccdb12c680b9affeb4b9a7d31f14c93dd7898a5cdf596",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14322:20261031T1800",
@@ -10072,7 +10112,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-10-31&perfix=14322",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10083,7 +10123,7 @@
     },
     {
       "uid": "b81d3d50e4489eb17958394abd69d95d@montreal-cinema-calendar",
-      "fingerprint": "f07915cea41a185b707fdc5bdd90c33d548401d316a74ea004670b524ab162d9",
+      "fingerprint": "656992f7532ddd3b31efbdec822910876f8e5e32797329f5b79280a3fbd00342",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14323:20261031T2015",
@@ -10092,7 +10132,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-10-31&perfix=14323",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10103,7 +10143,7 @@
     },
     {
       "uid": "7ecb63692da945548e67335f9d40c4f2@montreal-cinema-calendar",
-      "fingerprint": "88a213d6fa5d55ec0b203c364a55b0ad71ef485c7b04f6589c50509ca0aded15",
+      "fingerprint": "542f3bd69dfd210496f834d8b0f61f78de40a6e51a915bcb41b16a105693a3d4",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14422:20261101T1700",
@@ -10112,7 +10152,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-01&perfix=14422",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10123,7 +10163,7 @@
     },
     {
       "uid": "7b4e99a5c07b390b9e99d8505b847a2d@montreal-cinema-calendar",
-      "fingerprint": "e5f6e8ca4ff4eadd093867c9a80f38e8e65bdcaf823f7f9c390598f3b3535f76",
+      "fingerprint": "f0768b76cd5fe4b16265668a69697e946d9400ee45f6b18849fd89649d4d928f",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14423:20261102T1800",
@@ -10132,7 +10172,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-02&perfix=14423",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10143,7 +10183,7 @@
     },
     {
       "uid": "aa525e453c4d4951d28e37dec05d2ac1@montreal-cinema-calendar",
-      "fingerprint": "09b70331d72c267a5ed5d7733344c8dffa236c854c16f00b95baac25bceae112",
+      "fingerprint": "01935febd65987907c6fc53b2f5629647212dbee82b6417776a391cb96300b4f",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14424:20261102T2030",
@@ -10152,7 +10192,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-02&perfix=14424",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10163,7 +10203,7 @@
     },
     {
       "uid": "015596417353eaebdb3776aa45faa786@montreal-cinema-calendar",
-      "fingerprint": "aba1a1b9aa55d097ef4b965ec0fae8ac7f68028923ee3f9dd63eaee04167fc08",
+      "fingerprint": "ac1b5ee8149c1c28dc17f3db7f1d69294c3cb4b1a0179dc5df7d786270ec9031",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14425:20261103T1800",
@@ -10172,7 +10212,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14425",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10183,7 +10223,7 @@
     },
     {
       "uid": "383f371caabbaa3eca7f3ba130ceade1@montreal-cinema-calendar",
-      "fingerprint": "58115db01e3f90bc210c0dcf0b356c22d7b6a82cac8de20168246cee88957950",
+      "fingerprint": "8e247258554054ff92043bb400825499c5a8bec0ead52efa4dda888a8039628c",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14426:20261103T2045",
@@ -10192,7 +10232,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14426",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10203,7 +10243,7 @@
     },
     {
       "uid": "9a4520907c87de9cade7809081afc4b1@montreal-cinema-calendar",
-      "fingerprint": "a5f529fab30ff74767bec75355df9d910244872c0862a0bed308aa816474220a",
+      "fingerprint": "351169f937f5bebbd3dc043b5a2505ac8533da9851808e3b0ba5391da9b40da1",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14427:20261104T1800",
@@ -10212,7 +10252,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14427",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10223,7 +10263,7 @@
     },
     {
       "uid": "84af12755acb6f7626ce0be853781ce0@montreal-cinema-calendar",
-      "fingerprint": "e76bbbb9c83e6ae7affc57927218ddd5ed48dc58ac7a8ca1ae3dcb4d88d28c56",
+      "fingerprint": "d9bd99e960f3c2ea9dedc237cc9104fdaf5961362dec8ac788b5d83da64a3d7c",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14428:20261104T2015",
@@ -10232,7 +10272,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14428",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -10243,7 +10283,7 @@
     },
     {
       "uid": "7c396945f919353672b3266ebf726414@montreal-cinema-calendar",
-      "fingerprint": "5fc7f9fc7a681a47123ce8c3d8aa1a1781855cf578038ab1459164237fdaf050",
+      "fingerprint": "271e99da1e7ab556d577910acf47231a8420352303fc121ae34790e9b0b784b0",
       "event": {
         "source": "cinemacinema",
         "source_id": "53427",
@@ -10252,7 +10292,7 @@
         "venue": "Cinéma Beaubien",
         "address": "2396 rue Beaubien Est, Montréal, QC H2G 1N2",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-10-30",
-        "description": "Version: VOSTF; format: 2D; salle 3.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Version: VOSTF; format: 2D; salle 3.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": 82,
         "language": "VOSTF",
         "format": "2D",
@@ -10263,7 +10303,7 @@
     },
     {
       "uid": "6ea9292136bda4ba89ffcc47a674d12a@montreal-cinema-calendar",
-      "fingerprint": "9c2ad76f9e6d139f642dec5a77c9c239bbf426d1d91e98809118be96687d6c44",
+      "fingerprint": "3a9dd7a31bd08a1dff5076c23374d4b5dc3d9f35cb5e1f8ea32c560f68d7c9a9",
       "event": {
         "source": "cinema-public",
         "source_id": "le-secret-des-mesanges-2026-11-01-1030",
@@ -10272,7 +10312,7 @@
         "venue": "Cinéma Public — Casa d’Italia",
         "address": "505 rue Jean-Talon E (entrée sur Berri), Montréal, H2R 1T6",
         "url": "https://cinemapublic.ca/seances/le-secret-des-mesanges-2026-11-01-1030",
-        "description": "Director: Antoine Lanciaux\nTickets: https://cinemapublic.ticketacces.net/fr/organisation/achat/index.cfm?RepresentationID=94690\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Director: Antoine Lanciaux\nTickets: https://cinemapublic.ticketacces.net/fr/organisation/achat/index.cfm?RepresentationID=94690\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "fr",
         "format": "",
