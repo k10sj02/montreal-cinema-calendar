@@ -2163,11 +2163,11 @@
     },
     {
       "uid": "4912200747b8bf4400b3bde5bd60ae2d@montreal-cinema-calendar",
-      "fingerprint": "6d8a5ad7620391780c2a7436f70e3b061615c08e186f89110c5eac175c1244f9",
+      "fingerprint": "c2ce75a98b207a2f88b62a1d19ff69660900e94f1d05446679c8ec0013f58986",
       "event": {
         "source": "cinemacinema",
         "source_id": "53892",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-06T12:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2183,11 +2183,11 @@
     },
     {
       "uid": "15710a85faa7dceaec727174ff452b1c@montreal-cinema-calendar",
-      "fingerprint": "162c328d0b0757b1a93263a5ed49463c2cbb14ebed1bc8e1dcdfd6fe0fd84136",
+      "fingerprint": "3b10bb9a15bdb3972c27d5e8e07f72c7430d31aa2adc163f02f819e18c0da3be",
       "event": {
         "source": "cinemacinema",
         "source_id": "53896",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-06T15:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2203,11 +2203,11 @@
     },
     {
       "uid": "7a41565d369717be144b8755f0bdd30e@montreal-cinema-calendar",
-      "fingerprint": "fde050388907954771c726bd0bf048e5911e4474af4cd086dd69b73b0d361c2f",
+      "fingerprint": "465c80bed514be7751d7e5f65f447ea45e1ef351af7bd3b0d2f536df659d90ab",
       "event": {
         "source": "cinemacinema",
         "source_id": "53897",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-06T18:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2223,11 +2223,11 @@
     },
     {
       "uid": "9263fb13380b2714df6f774e217779d6@montreal-cinema-calendar",
-      "fingerprint": "cf21b8a160f78a699adf27b098028d6a879807ba18b4a5ec6ef4f087fb2c3bda",
+      "fingerprint": "b94df39aabdf8bfdda1f3160af82e0c4171d211bcf0011fe7ac8cf0479cde303",
       "event": {
         "source": "cinemacinema",
         "source_id": "53902",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-06T21:20:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2275,6 +2275,46 @@
         "description": "Version: VOASTF; format: 2D; salle 1.",
         "runtime_minutes": 114,
         "language": "VOASTF",
+        "format": "2D",
+        "room": "1",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "6f6d5d5a09dd0bbb7eeffed6f6404021@montreal-cinema-calendar",
+      "fingerprint": "313d0b30e98f29baaf8ea0c16d47420a2b27f605da3ea4558dbc9e3198935318",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53899",
+        "title": "CINEMANIA",
+        "start": "2026-11-06T18:45:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-06",
+        "description": "Version: ; format: 2D; salle 1.",
+        "runtime_minutes": 90,
+        "language": "",
+        "format": "2D",
+        "room": "1",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "e7997149ddcb257ba9d2bb29c9dc6726@montreal-cinema-calendar",
+      "fingerprint": "3ceae34f185c6caf2782c9e1044893df83b1b1eb3c307c4f843af586f18d1bf3",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53901",
+        "title": "CINEMANIA",
+        "start": "2026-11-06T21:00:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-06",
+        "description": "Version: ; format: 2D; salle 1.",
+        "runtime_minutes": 90,
+        "language": "",
         "format": "2D",
         "room": "1",
         "admission": "",
@@ -2883,11 +2923,11 @@
     },
     {
       "uid": "bb2842c181370986ce90fa293169c889@montreal-cinema-calendar",
-      "fingerprint": "49c3649b7a91f61426a38e8c15586da15a45b2d7010d071d505519edceae2037",
+      "fingerprint": "a225acb7244eb9ed88a7b829f27e25d5a608330b41cc84bfe050b5dc04aff6a3",
       "event": {
         "source": "cinemacinema",
         "source_id": "53903",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-07T12:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2903,11 +2943,11 @@
     },
     {
       "uid": "3c2475e961b76f2363c01b65bb41af71@montreal-cinema-calendar",
-      "fingerprint": "dbb172cc337372c2e9852df4d00e0de2950bf216e8d85981a45f669625598104",
+      "fingerprint": "3fe408aed4ef90e0b6ace27578cc87e74f92c64aabdb6db1f104a5cd347b9bab",
       "event": {
         "source": "cinemacinema",
         "source_id": "53908",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-07T15:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2923,11 +2963,11 @@
     },
     {
       "uid": "8209eb8d9175f6834608b5b1d6eaf154@montreal-cinema-calendar",
-      "fingerprint": "6f8ca488f94d91f86f5fd5825b0d857ac505f20f59a59efc9eef39e176fca053",
+      "fingerprint": "6d32dd3ea94899030b71c4e9e877becf180ce27de1826e58450ea44c3ec91774",
       "event": {
         "source": "cinemacinema",
         "source_id": "53911",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-07T18:45:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2943,11 +2983,11 @@
     },
     {
       "uid": "4b7c0d2fce754772cfcb9eb1e8b0809d@montreal-cinema-calendar",
-      "fingerprint": "18a539254235578125faa8f1ca5539f16b27dcadd59f4ec5027b35869630ce7f",
+      "fingerprint": "9db5edbfb9366b3a0ab1b1587494dc678079ce92c13a61723439874071e4bbd6",
       "event": {
         "source": "cinemacinema",
         "source_id": "53914",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-07T21:30:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -2955,6 +2995,26 @@
         "description": "Version: VOASTF; format: 2D; salle 1.",
         "runtime_minutes": 118,
         "language": "VOASTF",
+        "format": "2D",
+        "room": "1",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "476514e62fec13e5d9a8d38d977262aa@montreal-cinema-calendar",
+      "fingerprint": "3c79dd4b6f745747a89c12e70946692754a9519ffabe178e19a83648af4795b1",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53905",
+        "title": "CINEMANIA",
+        "start": "2026-11-07T13:00:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-07",
+        "description": "Version: ; format: 2D; salle 1.",
+        "runtime_minutes": 90,
+        "language": "",
         "format": "2D",
         "room": "1",
         "admission": "",
@@ -3583,11 +3643,11 @@
     },
     {
       "uid": "02f5e1f73a19d55ec00adac0b81417af@montreal-cinema-calendar",
-      "fingerprint": "62e3beeae260b9c5f49dbbc9d7e7d267b214d3766a36c137017f97d94d4642e3",
+      "fingerprint": "da37f708532361e77ea816e0567d756993b6be1dcf0f852e752d036d23d54493",
       "event": {
         "source": "cinemacinema",
         "source_id": "53916",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-08T11:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -3603,11 +3663,11 @@
     },
     {
       "uid": "f22c89e5295cb94c497616f37db5f955@montreal-cinema-calendar",
-      "fingerprint": "f44ccb9cfdfe9d8641828a3e8e04eaa2d124722e59c4323ffc4c90b08c921c03",
+      "fingerprint": "8177badae2452737bb0c4ecba78e4c3c793368321263bd3c7a869a3ddb74d256",
       "event": {
         "source": "cinemacinema",
         "source_id": "53920",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-08T14:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -3623,11 +3683,11 @@
     },
     {
       "uid": "255d0f5713903a3cd36fdb3523afb35a@montreal-cinema-calendar",
-      "fingerprint": "4bfafaa8f89d00168bdf31346d50c56c55aa6b79f13c6ffd806695ec3b87764d",
+      "fingerprint": "dd71ce67c4c76bdf290c06e11c5c0e3823a50ab7defae523a84dd7b5897d4057",
       "event": {
         "source": "cinemacinema",
         "source_id": "53923",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-08T18:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -3643,11 +3703,11 @@
     },
     {
       "uid": "43583f2b25e4e9e60ee5a46af9c4643b@montreal-cinema-calendar",
-      "fingerprint": "3d9efd81602ce031258691e5fcbc0776c7d11346d98e786da18652d1dd489b89",
+      "fingerprint": "ebcfe3b34be4e377765ae02e76cc5affd22fc1e71f88edb1ed9c139b67dd3867",
       "event": {
         "source": "cinemacinema",
         "source_id": "53926",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-08T21:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -4403,11 +4463,11 @@
     },
     {
       "uid": "8f1e897213b02e49b1e54485fad5d0bd@montreal-cinema-calendar",
-      "fingerprint": "576079c28b2fd408ae8739c9bda873b00292a63420d22f8bc2cdeff0ff6322f3",
+      "fingerprint": "684df2a7a03887ce02f6e1418dd175466a4f5c1cd98a51b1ab709d19bc2788d9",
       "event": {
         "source": "cinemacinema",
         "source_id": "53928",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-09T12:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -4423,11 +4483,11 @@
     },
     {
       "uid": "b3673fad9c3dfd3fd224c0bbdb5091fd@montreal-cinema-calendar",
-      "fingerprint": "e72c2bcbf204aeddf693c96dff97ce63f5103b6e60f3c54492654cefa6448e56",
+      "fingerprint": "9a017c47d610fe2b75d5f19fd4315d8e8dd4466e3bf3d320e438fce37dedc3f2",
       "event": {
         "source": "cinemacinema",
         "source_id": "53932",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-09T15:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -4443,11 +4503,11 @@
     },
     {
       "uid": "164834c6d2464cf5a603625e2f042c15@montreal-cinema-calendar",
-      "fingerprint": "6bdc3e56f0490b3518f8b69e3cd6b8d1f18a84cd2b5f99ebd09fec0af2660fed",
+      "fingerprint": "d8e09dec33b9c9e7c6ed81ea0ca365b39a8edc0acfd76d1754633467d219df5b",
       "event": {
         "source": "cinemacinema",
         "source_id": "53935",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-09T18:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -4463,11 +4523,11 @@
     },
     {
       "uid": "9cce628a72c0a391310a1a89a8751d2c@montreal-cinema-calendar",
-      "fingerprint": "d58c5bad9afd333fc786d17f1b2a98730aae19629f321df6f732898b7698b05b",
+      "fingerprint": "a22ab99a449f984ff60e6e18e95d4b46dff427d892e8b09bc51b3b2181a21178",
       "event": {
         "source": "cinemacinema",
         "source_id": "53938",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-09T21:20:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -5183,11 +5243,11 @@
     },
     {
       "uid": "79210d3c948783f78e19574d786ef326@montreal-cinema-calendar",
-      "fingerprint": "d0a3309aa96d2d076ed2109c737df04909f3e98049fbe947ef6e358d3c6382bd",
+      "fingerprint": "118564063884d2aa91674a4fab6de635ae6bf0094b86f3db071d90de5d4cfa37",
       "event": {
         "source": "cinemacinema",
         "source_id": "53940",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-10T12:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -5203,11 +5263,11 @@
     },
     {
       "uid": "44fac3cd86e45a556c631ee10d721b38@montreal-cinema-calendar",
-      "fingerprint": "e36fb680939ac0a953418c9d4fa9aee84f264cff66bed88122c785803ccb7841",
+      "fingerprint": "fb3b3fed7e97c75287eaa7e40700fd9262276798c6fd7f9ab475f60517c3b32b",
       "event": {
         "source": "cinemacinema",
         "source_id": "53944",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-10T15:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -5223,11 +5283,11 @@
     },
     {
       "uid": "cc751654c183a526d63a170a8507373f@montreal-cinema-calendar",
-      "fingerprint": "630d0a16e17ca23e2b66b3acf929fbfa9df78ae5f187b48b3cace791fca91057",
+      "fingerprint": "caf250290a1612dcfc03780bfea9fcb32f14ab419d58ca3022672629aa8f33a4",
       "event": {
         "source": "cinemacinema",
         "source_id": "53945",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-10T18:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -5243,11 +5303,11 @@
     },
     {
       "uid": "7331f43e2d229ea0a0c12f0c31de5b1d@montreal-cinema-calendar",
-      "fingerprint": "038c280ca9939e0b59761d802ebcb34a9d2688c2562c08ba836a8b6328e61364",
+      "fingerprint": "b9f2da0d5dfd1191505e8fc8b7d1499c32db1a032e131e6ccc1366fb4ac79ce4",
       "event": {
         "source": "cinemacinema",
         "source_id": "53950",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-10T21:20:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -5257,6 +5317,46 @@
         "language": "VOASTF",
         "format": "2D",
         "room": "2",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "5af7f51ae26ca3e62a163149f3ba7fda@montreal-cinema-calendar",
+      "fingerprint": "305d075a5d789055915b3e251afc8ef881274095a9ffdfb10374446192dee24e",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53947",
+        "title": "CINEMANIA",
+        "start": "2026-11-10T18:45:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-10",
+        "description": "Version: ; format: 2D; salle 1.",
+        "runtime_minutes": 90,
+        "language": "",
+        "format": "2D",
+        "room": "1",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "0e38b0bf98df3164d5f19b0b21d1e70f@montreal-cinema-calendar",
+      "fingerprint": "120dde811d313b15cea105b30d92a9f875bebeba4db6016c1a3a6c4dcda91b9e",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53949",
+        "title": "CINEMANIA",
+        "start": "2026-11-10T21:00:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-10",
+        "description": "Version: ; format: 2D; salle 1.",
+        "runtime_minutes": 90,
+        "language": "",
+        "format": "2D",
+        "room": "1",
         "admission": "",
         "status": "CONFIRMED"
       }
@@ -6063,11 +6163,11 @@
     },
     {
       "uid": "a95853295cfdc0b41f819e4f1a6ac530@montreal-cinema-calendar",
-      "fingerprint": "b807913a243996fe0cf849bd65ee3c2ae268fc52dce7c555f9038e37d008ccb7",
+      "fingerprint": "a2a2e7d2a7938ecfec8ed6a01e9b36df349577dcd341faf1ac904b7b6bcf43ec",
       "event": {
         "source": "cinemacinema",
         "source_id": "53952",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-11T12:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6083,11 +6183,11 @@
     },
     {
       "uid": "1bc79a3e7ce3e0979a4623bc0cb994e0@montreal-cinema-calendar",
-      "fingerprint": "bb272efb18a0027ed12bda66cc29dd5fac6597b176e8536683ab92d956c7e412",
+      "fingerprint": "cb72d5aa7ec4a6b2966077bf5d25dbdf65e7ab3838c2dd7936cd85bf552f68d6",
       "event": {
         "source": "cinemacinema",
         "source_id": "53956",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-11T15:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6103,11 +6203,11 @@
     },
     {
       "uid": "b38c4bfc6579f7f6c68120a84222fe5c@montreal-cinema-calendar",
-      "fingerprint": "db351aaadf37161602d4abafbac1588371c979e8920c36514106053d789daaea",
+      "fingerprint": "d7d0e3b9bcb7b7335d1455c752912b05d393efdc29d527c07f782171721d2107",
       "event": {
         "source": "cinemacinema",
         "source_id": "53959",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-11T18:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6123,11 +6223,11 @@
     },
     {
       "uid": "1cf9272fbf317286cc5d4d55288f583e@montreal-cinema-calendar",
-      "fingerprint": "ae18d1aa2c81d14e673c1f2ac90673abc3adaaad09fb89b844b3a65d5217723a",
+      "fingerprint": "7677302be1033adcaf3a7e33c903e471ebb203f440254927b1f899eed2174e21",
       "event": {
         "source": "cinemacinema",
         "source_id": "53962",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-11T21:20:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6883,11 +6983,11 @@
     },
     {
       "uid": "2287f9e214244c3f1d3a7db8330ad627@montreal-cinema-calendar",
-      "fingerprint": "36debf697380c93195a408819bafc151efebed403f79e523817bba86b12ddc49",
+      "fingerprint": "eb2872802a29de61cbce2001cb4505db2c0296a6cbbb795739e3f157984202fc",
       "event": {
         "source": "cinemacinema",
         "source_id": "53964",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-12T12:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6903,11 +7003,11 @@
     },
     {
       "uid": "9fe99a177bf04226371e8d9c3c122f61@montreal-cinema-calendar",
-      "fingerprint": "d93bad06da1dfbc922921c4792e72145491e37383fedc148e0ed50f86244f398",
+      "fingerprint": "81a632aff55ed65d85c1a18a16272fb676bc4cbf65f483e7e4390535f62b839e",
       "event": {
         "source": "cinemacinema",
         "source_id": "53968",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-12T15:40:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6923,11 +7023,11 @@
     },
     {
       "uid": "bc1e39496dd88f20bd2d078f36719717@montreal-cinema-calendar",
-      "fingerprint": "ce860fbe90b24747a6038346f403586ede64ac6f9261eb70c52467c68c0879a8",
+      "fingerprint": "41460f736b2942eb36c014cb12994da542b408940ba5d34a88e707ed69ef3689",
       "event": {
         "source": "cinemacinema",
         "source_id": "53969",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-12T18:00:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6943,11 +7043,11 @@
     },
     {
       "uid": "1d2b4dfba8f6b41a6c492f809ec7fb88@montreal-cinema-calendar",
-      "fingerprint": "cb913bf111540a49968ecc68798ad83cae77cecd255f9e6e5d51e3351b85180c",
+      "fingerprint": "76d39613b25008523dfe8542ab306747a25320b1dc0cd32b1a90bb4cba886ac2",
       "event": {
         "source": "cinemacinema",
         "source_id": "53974",
-        "title": "WILD HORSE NINE",
+        "title": "CHEVAL SAUVAGE NUMÉRO NEUF",
         "start": "2026-11-12T21:20:00-05:00",
         "venue": "Cinéma du Parc",
         "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
@@ -6957,6 +7057,46 @@
         "language": "VOASTF",
         "format": "2D",
         "room": "2",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "cfbc188c36bd8dc91ec920f23e2888e9@montreal-cinema-calendar",
+      "fingerprint": "0cca4590e2fadc38c449a465896e8b76df4121d9ce947529d0dabce68a915638",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53971",
+        "title": "CINEMANIA",
+        "start": "2026-11-12T18:45:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-12",
+        "description": "Version: ; format: 2D; salle 1.",
+        "runtime_minutes": 90,
+        "language": "",
+        "format": "2D",
+        "room": "1",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "4babb2d13b84410a2eb2fc1b30e3b2ad@montreal-cinema-calendar",
+      "fingerprint": "12b89f625120e37382bfeed26647982c5974b0165dc72447523cf9fe88fc131f",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53973",
+        "title": "CINEMANIA",
+        "start": "2026-11-12T21:00:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-12",
+        "description": "Version: ; format: 2D; salle 1.",
+        "runtime_minutes": 90,
+        "language": "",
+        "format": "2D",
+        "room": "1",
         "admission": "",
         "status": "CONFIRMED"
       }
@@ -7522,6 +7662,26 @@
       }
     },
     {
+      "uid": "113dfe80a7c2270ec8818e8f0f60b392@montreal-cinema-calendar",
+      "fingerprint": "aaa2b5aaac91b3dcd1c9792eea5c68ad1cea737afbb51a85cdacbfed8c80b56e",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53977",
+        "title": "CINEMANIA",
+        "start": "2026-11-13T20:45:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-13",
+        "description": "Version: ; format: 2D; salle 3.",
+        "runtime_minutes": 90,
+        "language": "",
+        "format": "2D",
+        "room": "3",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
       "uid": "d95fb3db78916b45a224e66baf9598e9@montreal-cinema-calendar",
       "fingerprint": "1e74ee4760ebc2af631ae8ebfa10726e377286c638bc07a29c8bf68243d71dd9",
       "event": {
@@ -7637,6 +7797,26 @@
         "language": "VOF",
         "format": "2D",
         "room": "1",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "36f7688d27177f553c3932305a8b0584@montreal-cinema-calendar",
+      "fingerprint": "0adae0e6606784e03c9da48b9f0d8cc33e8b874c430b25c9e01f68d821d19fa0",
+      "event": {
+        "source": "cinemacinema",
+        "source_id": "53978",
+        "title": "CINEMANIA",
+        "start": "2026-11-15T14:45:00-05:00",
+        "venue": "Cinéma du Parc",
+        "address": "3575 avenue du Parc, bureau 6100, Montréal, QC H2X 3P9",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-15",
+        "description": "Version: ; format: 2D; salle 3.",
+        "runtime_minutes": 90,
+        "language": "",
+        "format": "2D",
+        "room": "3",
         "admission": "",
         "status": "CONFIRMED"
       }
@@ -7974,26 +8154,6 @@
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-25",
         "description": "Version: VOF; format: 2D; salle 2.",
         "runtime_minutes": 77,
-        "language": "VOF",
-        "format": "2D",
-        "room": "2",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "b824bce21ab101a117873dd6f2ce659d@montreal-cinema-calendar",
-      "fingerprint": "5609a1a9d9e1ff80bb5c4610256bbd91fd1102495ffa6a724bc8e6721d6232c9",
-      "event": {
-        "source": "cinemacinema",
-        "source_id": "53428",
-        "title": "PAQUET DE TROUBLES",
-        "start": "2026-11-27T18:15:00-05:00",
-        "venue": "Cinéma Beaubien",
-        "address": "2396 rue Beaubien Est, Montréal, QC H2G 1N2",
-        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-27",
-        "description": "Version: VOF; format: 2D; salle 2.",
-        "runtime_minutes": 125,
         "language": "VOF",
         "format": "2D",
         "room": "2",
@@ -8622,6 +8782,106 @@
       }
     },
     {
+      "uid": "4becb061113c9f59125a171a99e0e6f4@montreal-cinema-calendar",
+      "fingerprint": "0c2a1ed8491a1a9131e254c75d83521ed5a81f80cc73558bb084cca260ecf74d",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14473:20261103T1400",
+        "title": "Possible Love",
+        "start": "2026-11-03T14:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14473",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "3c6b2497057c9df3665672b1a8359a65@montreal-cinema-calendar",
+      "fingerprint": "3a1d10cc6f018257f1eea82c8f5f1136e17bc1fa19f826b38995217b1d91885e",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14474:20261104T1815",
+        "title": "Possible Love",
+        "start": "2026-11-04T18:15:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14474",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "5c31cc85ef638725f97256be53f785bc@montreal-cinema-calendar",
+      "fingerprint": "1722db88ede7c61ebcd599e3e6b7f29b2418409fa39dde41329ea23abdf8f33a",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14478:20261105T1500",
+        "title": "Possible Love",
+        "start": "2026-11-05T15:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-05&perfix=14478",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "fe7b2917eadca0a15508f705e0e99304@montreal-cinema-calendar",
+      "fingerprint": "79f7d2add26da5a33e294a5f8e6da7d01508d06aa606adfe052df590b9a6989a",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14495:20261109T1600",
+        "title": "Possible Love",
+        "start": "2026-11-09T16:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-09&perfix=14495",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "cdf102ff52c4df1a05f9cf85332980eb@montreal-cinema-calendar",
+      "fingerprint": "8bc6989d15ca21d9df5cd53a10317bbcc82535198077857e618f0c523c2de2ed",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14496:20261110T1900",
+        "title": "Possible Love",
+        "start": "2026-11-10T19:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-10&perfix=14496",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
       "uid": "defccadc5c7f5ae6ca4e50b9edd951cb@montreal-cinema-calendar",
       "fingerprint": "8bfc7b3f0127e1c24d03096d03065d99ffc616861ae62c976350e0cac2984537",
       "event": {
@@ -8792,106 +9052,6 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-09&perfix=14494",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "4becb061113c9f59125a171a99e0e6f4@montreal-cinema-calendar",
-      "fingerprint": "0c2a1ed8491a1a9131e254c75d83521ed5a81f80cc73558bb084cca260ecf74d",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14473:20261103T1400",
-        "title": "Possible Love",
-        "start": "2026-11-03T14:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14473",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "3c6b2497057c9df3665672b1a8359a65@montreal-cinema-calendar",
-      "fingerprint": "3a1d10cc6f018257f1eea82c8f5f1136e17bc1fa19f826b38995217b1d91885e",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14474:20261104T1815",
-        "title": "Possible Love",
-        "start": "2026-11-04T18:15:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14474",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "5c31cc85ef638725f97256be53f785bc@montreal-cinema-calendar",
-      "fingerprint": "1722db88ede7c61ebcd599e3e6b7f29b2418409fa39dde41329ea23abdf8f33a",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14478:20261105T1500",
-        "title": "Possible Love",
-        "start": "2026-11-05T15:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-05&perfix=14478",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "fe7b2917eadca0a15508f705e0e99304@montreal-cinema-calendar",
-      "fingerprint": "79f7d2add26da5a33e294a5f8e6da7d01508d06aa606adfe052df590b9a6989a",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14495:20261109T1600",
-        "title": "Possible Love",
-        "start": "2026-11-09T16:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-09&perfix=14495",
-        "description": "Official Cinémathèque québécoise programme.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CONFIRMED"
-      }
-    },
-    {
-      "uid": "cdf102ff52c4df1a05f9cf85332980eb@montreal-cinema-calendar",
-      "fingerprint": "8bc6989d15ca21d9df5cd53a10317bbcc82535198077857e618f0c523c2de2ed",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14496:20261110T1900",
-        "title": "Possible Love",
-        "start": "2026-11-10T19:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-10&perfix=14496",
         "description": "Official Cinémathèque québécoise programme.",
         "runtime_minutes": null,
         "language": "",
@@ -9212,6 +9372,66 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-17&perfix=14433",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "7dfebfddfd6d7dfde24b6cd933662218@montreal-cinema-calendar",
+      "fingerprint": "c7564b54ec67d2649de96b80c6e9b2f6ce8934da79298283c7da48fb917a6fbb",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14434:20261118T1800",
+        "title": "L'affaire Coffin",
+        "start": "2026-11-18T18:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14434",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "a424d97bf7a227f7717164ee46d3a223@montreal-cinema-calendar",
+      "fingerprint": "88c966c273538e4d63bd222be9491e9b14b8d89037ba6c61f80a554dae28e646",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14483:20261118T1900",
+        "title": "Jean Cocteau",
+        "start": "2026-11-18T19:00:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14483",
+        "description": "Official Cinémathèque québécoise programme.",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
+      "uid": "ca7e4f8fe080208b4953ed2463771870@montreal-cinema-calendar",
+      "fingerprint": "93ad712ea1446be90eb332b63f76367034e1be64a1de7f28e26a19942929e190",
+      "event": {
+        "source": "cinematheque-quebecoise",
+        "source_id": "official:14435:20261118T2045",
+        "title": "Nouvelles restaurations basques 2",
+        "start": "2026-11-18T20:45:00-05:00",
+        "venue": "Cinémathèque québécoise",
+        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
+        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14435",
         "description": "Official Cinémathèque québécoise programme.",
         "runtime_minutes": null,
         "language": "",
@@ -10122,16 +10342,16 @@
       }
     },
     {
-      "uid": "6c38631c4f814ab4707d3cb8e6e4a8f6@montreal-cinema-calendar",
-      "fingerprint": "7f98ed605c16b40fd972309d90883134360acccddca920f2d10e5ac136a894b6",
+      "uid": "80816e24d5c8bb8b9aee9e6238c6bd7f@montreal-cinema-calendar",
+      "fingerprint": "0c814422ed71bf1e8a38b448731c0e8c4365491ad49287135ad71856b57405c4",
       "event": {
         "source": "cinema-public",
-        "source_id": "cold-war-2026-11-13-1800",
-        "title": "Cold War",
+        "source_id": "la-guerre-froide-2026-11-13-1800",
+        "title": "La guerre froide",
         "start": "2026-11-13T18:00:00-05:00",
         "venue": "Cinéma Public — Casa d’Italia",
         "address": "505 rue Jean-Talon E (entrée sur Berri), Montréal, H2R 1T6",
-        "url": "https://cinemapublic.ca/seances/cold-war-2026-11-13-1800",
+        "url": "https://cinemapublic.ca/seances/la-guerre-froide-2026-11-13-1800",
         "description": "Director: Paweł Pawlikowski\nTickets: https://cinemapublic.ticketacces.net/fr/organisation/achat/index.cfm?RepresentationID=94782",
         "runtime_minutes": null,
         "language": "fr",
@@ -11362,6 +11582,26 @@
       }
     },
     {
+      "uid": "987419f93f29815756719a9120dd2164@montreal-cinema-calendar",
+      "fingerprint": "a1091ef6e01e934f0110fd13412c9ec5c2fd0201e708f10a591cf4e8e34579d6",
+      "event": {
+        "source": "microcinema-film-clubs",
+        "source_id": "364414c3-7485-41ec-9e32-a1af90761241",
+        "title": "Like A Mammoth To A Giant Flame: Early Screening",
+        "start": "2026-11-16T20:30:00-05:00",
+        "venue": "Cinéma Moderne",
+        "address": "5150 boul. Saint-Laurent, Montréal, QC H2T 1R8",
+        "url": "https://www.eventbrite.com/e/like-a-mammoth-to-a-giant-flame-early-screening-tickets-2004245891414",
+        "description": "Film · Data: Has Things (hasthings.com), ODbL 1.0",
+        "runtime_minutes": null,
+        "language": "",
+        "format": "Film",
+        "room": "",
+        "admission": "",
+        "status": "CONFIRMED"
+      }
+    },
+    {
       "uid": "fa1d2b3b7a5e5b69ced8d9e97c1c008e@montreal-cinema-calendar",
       "fingerprint": "23d336fadff0564275ccdf9fe5c617a82edfd5c5c1c5f4b5d5f31c5d7d37bb51",
       "event": {
@@ -11802,59 +12042,39 @@
       }
     },
     {
-      "uid": "7dfebfddfd6d7dfde24b6cd933662218@montreal-cinema-calendar",
-      "fingerprint": "2a3152d3880671ba21aad1170cb1eb3662b587294f3b015f0a775ab51b413755",
+      "uid": "b824bce21ab101a117873dd6f2ce659d@montreal-cinema-calendar",
+      "fingerprint": "a92ffa586acfd0336b8484bb53d30f46422bf79a2ae0bd944a48307458145652",
       "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14434:20261118T1800",
-        "title": "L'affaire Coffin",
-        "start": "2026-11-18T18:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14434",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
-        "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
+        "source": "cinemacinema",
+        "source_id": "53428",
+        "title": "PAQUET DE TROUBLES",
+        "start": "2026-11-27T18:15:00-05:00",
+        "venue": "Cinéma Beaubien",
+        "address": "2396 rue Beaubien Est, Montréal, QC H2G 1N2",
+        "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-27",
+        "description": "Version: VOF; format: 2D; salle 2.\nRemoved from the official schedule.",
+        "runtime_minutes": 125,
+        "language": "VOF",
+        "format": "2D",
+        "room": "2",
         "admission": "",
         "status": "CANCELLED"
       }
     },
     {
-      "uid": "a424d97bf7a227f7717164ee46d3a223@montreal-cinema-calendar",
-      "fingerprint": "1c40e54c330c313a4f58d4203bd4eb2e64ba441b648e1c071936648fa64fa72f",
+      "uid": "6c38631c4f814ab4707d3cb8e6e4a8f6@montreal-cinema-calendar",
+      "fingerprint": "c5e9f941b0dec9713ebbe740e6d086a30ecfd8f00a574b7c0c4e64ff125eef3d",
       "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14483:20261118T1900",
-        "title": "Jean Cocteau",
-        "start": "2026-11-18T19:00:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14483",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
+        "source": "cinema-public",
+        "source_id": "cold-war-2026-11-13-1800",
+        "title": "Cold War",
+        "start": "2026-11-13T18:00:00-05:00",
+        "venue": "Cinéma Public — Casa d’Italia",
+        "address": "505 rue Jean-Talon E (entrée sur Berri), Montréal, H2R 1T6",
+        "url": "https://cinemapublic.ca/seances/cold-war-2026-11-13-1800",
+        "description": "Director: Paweł Pawlikowski\nTickets: https://cinemapublic.ticketacces.net/fr/organisation/achat/index.cfm?RepresentationID=94782\nRemoved from the official schedule.",
         "runtime_minutes": null,
-        "language": "",
-        "format": "",
-        "room": "",
-        "admission": "",
-        "status": "CANCELLED"
-      }
-    },
-    {
-      "uid": "ca7e4f8fe080208b4953ed2463771870@montreal-cinema-calendar",
-      "fingerprint": "7c59e99d24980a0b623857f9ffa007f55ceab18b4153a7b6a370984e5b6147e2",
-      "event": {
-        "source": "cinematheque-quebecoise",
-        "source_id": "official:14435:20261118T2045",
-        "title": "Nouvelles restaurations basques 2",
-        "start": "2026-11-18T20:45:00-05:00",
-        "venue": "Cinémathèque québécoise",
-        "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
-        "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-18&perfix=14435",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.",
-        "runtime_minutes": null,
-        "language": "",
+        "language": "fr",
         "format": "",
         "room": "",
         "admission": "",
@@ -11863,7 +12083,7 @@
     },
     {
       "uid": "450104cf2fab290a836863bff8b56caf@montreal-cinema-calendar",
-      "fingerprint": "decfdc2baf2b37a71a722f84809ccc0502d451a63c908a068cd092a961d06f95",
+      "fingerprint": "9ebbbc2cfc18ccc15dd61bda6c4cfeb01272d6c3dcc4c07176fa97a0e1c24dd4",
       "event": {
         "source": "cinemacinema",
         "source_id": "53695",
@@ -11872,7 +12092,7 @@
         "venue": "Cinéma Beaubien",
         "address": "2396 rue Beaubien Est, Montréal, QC H2G 1N2",
         "url": "https://cinemacinema.ca/fr/horaire?date=2026-11-07",
-        "description": "Version: VOF; format: 2D; salle 2.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Version: VOF; format: 2D; salle 2.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": 111,
         "language": "VOF",
         "format": "2D",
@@ -11883,7 +12103,7 @@
     },
     {
       "uid": "c6900601344f281c4591fbd237fb92d3@montreal-cinema-calendar",
-      "fingerprint": "0afe3159c76204e8703b014ad3fb328013ee82179f04c102b10b351a26644b1d",
+      "fingerprint": "389195c73aa19e90df75b7df04f207dd00c325b93de2863c5c8207b6919fa4fe",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14472:20261103T1730",
@@ -11892,7 +12112,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14472",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -11903,7 +12123,7 @@
     },
     {
       "uid": "4195290246ad1827afd988e2da4f4437@montreal-cinema-calendar",
-      "fingerprint": "48531ea3630c77e54dfb6a552ae2d592f57978d8b519aea3e88d95aa8732b125",
+      "fingerprint": "d75eda34ee4fc7a98f0be8d2d826dd24e17385fb33b681aa9110b1aba8ed9e70",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14477:20261105T1815",
@@ -11912,7 +12132,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-05&perfix=14477",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -11923,7 +12143,7 @@
     },
     {
       "uid": "bc59c60d7b0189b52c4f996b16d39732@montreal-cinema-calendar",
-      "fingerprint": "2ba035b44f7c7d6dbfc6950696fc8bf270ffd7f79e57b890e323350090c53fa8",
+      "fingerprint": "02d337bb742002e0f4238b769910ceda49ff7c0bb246203640da0e3d4359ca70",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14471:20261103T1930",
@@ -11932,7 +12152,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14471",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -11943,7 +12163,7 @@
     },
     {
       "uid": "28c876e7eef84bd89b226e76271dbca4@montreal-cinema-calendar",
-      "fingerprint": "50fce40ce429cf58a05b811fc5bc9cc266e752bb346c76d2e19d9c1c7857bd53",
+      "fingerprint": "42d16163063aec0d988a341438bd069f60176d6eef4c90dafb96a0f2b91ec146",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14475:20261104T1600",
@@ -11952,7 +12172,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14475",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -11963,7 +12183,7 @@
     },
     {
       "uid": "1a839714e8b865aa6740aff1f2024e7c@montreal-cinema-calendar",
-      "fingerprint": "13fc8fb09ea69285e90307f4df007f48ad2408ae1e50f6f2f62790d2211a3a34",
+      "fingerprint": "37304491fb24c786fe28e366d9d26136121e233fbf65fffbea9f1f6c3a64fa28",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14476:20261105T2015",
@@ -11972,7 +12192,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-05&perfix=14476",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -11983,7 +12203,7 @@
     },
     {
       "uid": "015596417353eaebdb3776aa45faa786@montreal-cinema-calendar",
-      "fingerprint": "88ed84ada41640cfc041a29480b53e8b7dc249ef9c71c73cbac833c058e20cd1",
+      "fingerprint": "02452fa0a5a99e4836aa9df8742b542a97a8e081e3d2e20a59206c4583f4169e",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14425:20261103T1800",
@@ -11992,7 +12212,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14425",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -12003,7 +12223,7 @@
     },
     {
       "uid": "383f371caabbaa3eca7f3ba130ceade1@montreal-cinema-calendar",
-      "fingerprint": "51239dedcd7c68274a61c39d444f366fc2d33a711d4873e8631375b5c3446ffb",
+      "fingerprint": "59905e0e04a32aa57308931193165cfeacbcb1a8e68613755528b84069bc21f9",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14426:20261103T2045",
@@ -12012,7 +12232,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-03&perfix=14426",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -12023,7 +12243,7 @@
     },
     {
       "uid": "9a4520907c87de9cade7809081afc4b1@montreal-cinema-calendar",
-      "fingerprint": "bec385531cddc071d99705585afc2f4dd908dfa8550c2fc14069700bb4187e85",
+      "fingerprint": "2ca275467f05381acd209f1af4705c06e5589d3688dc94f8b07c5b126bd16a2f",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14427:20261104T1800",
@@ -12032,7 +12252,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14427",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
@@ -12043,7 +12263,7 @@
     },
     {
       "uid": "84af12755acb6f7626ce0be853781ce0@montreal-cinema-calendar",
-      "fingerprint": "0790b3bd9f756796d0161d1916fcc3882984b49fa6ae211749559ed98148f2d5",
+      "fingerprint": "f0778e8d89d1aa8baaf16199f9fb9af99d7d2ea0f4ecc472e2f05e279be1b9d6",
       "event": {
         "source": "cinematheque-quebecoise",
         "source_id": "official:14428:20261104T2015",
@@ -12052,7 +12272,7 @@
         "venue": "Cinémathèque québécoise",
         "address": "335 boulevard De Maisonneuve Est, Montréal, QC H2X 1K1",
         "url": "https://omniwebticketing.com/cinematheque/?schdate=2026-11-04&perfix=14428",
-        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
+        "description": "Official Cinémathèque québécoise programme.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.\nRemoved from the official schedule.",
         "runtime_minutes": null,
         "language": "",
         "format": "",
