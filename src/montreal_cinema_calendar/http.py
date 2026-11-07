@@ -19,14 +19,20 @@ class Fetcher:
         )
 
     def get(self, url: str) -> str:
+        return self._request(url).text
+
+    def get_json(self, url: str, *, headers: dict[str, str] | None = None):
+        return self._request(url, headers=headers).json()
+
+    def _request(self, url: str, *, headers: dict[str, str] | None = None) -> httpx.Response:
         last: Exception | None = None
         for attempt in range(self.attempts):
             try:
-                response = self.client.get(url)
+                response = self.client.get(url, headers=headers)
                 response.raise_for_status()
                 if "cloudflare" in response.text[:7000].lower() and "blocked" in response.text[:7000].lower():
                     raise RuntimeError(f"Cloudflare blocked {url}")
-                return response.text
+                return response
             except Exception as exc:
                 last = exc
                 if attempt + 1 < self.attempts:

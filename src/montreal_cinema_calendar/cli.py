@@ -11,7 +11,7 @@ from .calendar import date_window, load_state, merge, reconcile, save_state
 from .http import Fetcher
 from .ics import render
 from .models import TZID
-from .sources import CinemaCinemaSource, CinemaPublicSource, CinemathequeSource, CinemaPoliticaSource, MicrocinemaSource
+from .sources import CinemaCinemaSource, CinemaPublicSource, CinemathequeSource, CinemaPoliticaSource, CineplexForumSource, MicrocinemaSource
 
 
 def main() -> int:
@@ -30,6 +30,7 @@ def main() -> int:
         CinemathequeSource(fetcher),
         CinemaPoliticaSource(fetcher),
         CinemaPublicSource(fetcher),
+        CineplexForumSource(fetcher),
         MicrocinemaSource(fetcher),
     ]
     collected, errors, successful, coverage_ends = [], {}, set(), {}
