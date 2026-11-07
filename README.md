@@ -6,6 +6,8 @@
 
 An automated, subscribable calendar of **individual screenings** at and from:
 
+- CinemaClock's Montréal-wide listings (all cinemas on its Montréal page)
+
 - Cinéma Beaubien
 - Cinéma du Parc
 - Cinéma du Musée
@@ -56,6 +58,7 @@ The workflow tests and refreshes the calendar every six hours, commits the feed 
 - Cinema Politica events are discovered from the Concordia local page, then verified on each individual screening page. The listing's “all screenings are by donation” policy is preserved.
 - Cinéma Public is read from its official structured schedule. Cinéma Moderne, university/film-club screenings, outdoor cinema and named seasonal festivals are selected from Has Things' Montréal film dataset (ODbL 1.0, attribution included in each event). Blue Sunshine is included whenever a dated listing is published there; no recurring dates are invented.
 - Cinéma Cineplex Forum et VIP screenings come from Cineplex's official showtime service, including published language, rating, runtime, auditorium, accessibility/format labels and ticket links. Cineplex may publish some special-event dates well ahead of its regular weekly schedule.
+- CinemaClock supplies the citywide backstop by reading every cinema linked from its Montréal cinema directory. When a direct venue source and CinemaClock describe the same title, venue and start time, the direct source wins; unmatched CinemaClock screenings remain in the feed.
 - Cinémathèque québécoise occasionally returns a Cloudflare block to automated clients. The adapter retries; if it remains blocked, the update is marked degraded and the prior Cinémathèque events remain intact. Check `montreal-cinema.json` after deployment. If GitHub-hosted requests are consistently blocked, ask the venue to allow the documented user agent rather than proxying or copying third-party data.
 - A missing runtime means the ICS event has a start but no fabricated end time. Calendar software supports this valid form.
 

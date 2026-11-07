@@ -1,3 +1,4 @@
+from dataclasses import replace
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -47,6 +48,12 @@ def test_merge_and_cancellation_only_after_successful_refresh():
     assert reconcile([], {old.uid:old}, set(), date(2026,10,10))[0].status == "CONFIRMED"
     assert reconcile([], {old.uid:old}, {"venue"}, date(2026,10,10))[0].status == "CANCELLED"
     assert len(merge([old, old])) == 1
+
+
+def test_merge_prefers_direct_source_over_cinemaclock_copy():
+    direct = sample("direct", "1")
+    clock = replace(direct, source="cinemaclock-montreal", source_id="clock-1")
+    assert merge([clock, direct]) == [direct]
 
 
 def test_partial_source_only_cancels_dates_in_coverage():

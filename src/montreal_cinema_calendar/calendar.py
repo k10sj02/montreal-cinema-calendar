@@ -4,6 +4,8 @@ from dataclasses import replace
 from datetime import date, timedelta
 import json
 from pathlib import Path
+import re
+import unicodedata
 
 from .models import Screening
 
@@ -18,7 +20,28 @@ def merge(events: list[Screening]) -> list[Screening]:
         current = by_uid.get(event.uid)
         if current is None or len(event.description) > len(current.description):
             by_uid[event.uid] = event
-    return list(by_uid.values())
+    unique = list(by_uid.values())
+    by_screening: dict[tuple, list[Screening]] = {}
+    for event in unique:
+        key = (event.start, _plain(event.title), _venue(event.venue))
+        by_screening.setdefault(key, []).append(event)
+
+    output: list[Screening] = []
+    for matches in by_screening.values():
+        direct = [event for event in matches if event.source != "cinemaclock-montreal"]
+        output.extend(direct or matches)
+    return output
+
+
+def _plain(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", " ", value).strip()
+
+
+def _venue(value: str) -> str:
+    words = _plain(value).split()
+    generic = {"cinema", "cinemas", "cineplex", "theatre", "theater", "vip", "et", "and"}
+    return " ".join(word for word in words if word not in generic)
 
 
 def load_state(path: Path) -> dict[str, Screening]:

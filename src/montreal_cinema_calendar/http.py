@@ -18,8 +18,8 @@ class Fetcher:
             headers={"User-Agent": USER_AGENT, "Accept-Language": "fr-CA,fr;q=0.9,en;q=0.7"},
         )
 
-    def get(self, url: str) -> str:
-        return self._request(url).text
+    def get(self, url: str, *, headers: dict[str, str] | None = None) -> str:
+        return self._request(url, headers=headers).text
 
     def get_json(self, url: str, *, headers: dict[str, str] | None = None):
         return self._request(url, headers=headers).json()
