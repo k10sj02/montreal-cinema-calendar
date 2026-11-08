@@ -1,14 +1,15 @@
 {
-  "generated": "2026-11-08T01:00:22.368134-05:00",
-  "count": 5810,
+  "generated": "2026-11-08T08:24:37.973565-05:00",
+  "count": 6046,
   "sources_ok": [
     "cinema-politica-concordia",
     "cinema-public",
-    "cinemacinema",
     "cinemaclock-montreal",
     "cinematheque-quebecoise",
-    "cineplex-forum",
-    "microcinema-film-clubs"
+    "cineplex-forum"
   ],
-  "errors": {}
+  "errors": {
+    "cinemacinema": "Unable to fetch https://cinemacinema.ca/fr/horaire?date=2026-11-08: [Errno 104] Connection reset by peer",
+    "microcinema-film-clubs": "Unable to fetch https://montreal.hasthings.com/api/events?from=2026-11-08&to=2026-12-22&category=film&limit=500: [Errno 104] Connection reset by peer"
+  }
 }
