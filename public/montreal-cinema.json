@@ -1,15 +1,14 @@
 {
-  "generated": "2026-11-25T03:33:26.769840-05:00",
-  "count": 6073,
+  "generated": "2026-11-25T16:41:53.021361-05:00",
+  "count": 7846,
   "sources_ok": [
     "cinema-politica-concordia",
     "cinema-public",
     "cinemacinema",
     "cinemaclock-montreal",
+    "cinematheque-quebecoise",
     "cineplex-forum",
     "microcinema-film-clubs"
   ],
-  "errors": {
-    "cinematheque-quebecoise": "Cinoche: no current screenings in structured schedule; Official programme: Unable to fetch https://r.jina.ai/https://www.cinematheque.qc.ca/fr/programme/: Client error '401 Unauthorized' for url 'https://r.jina.ai/https://www.cinematheque.qc.ca/fr/programme/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
-  }
+  "errors": {}
 }
